@@ -1,0 +1,234 @@
+@font-face {font-family:'MalgunGothic',sans-serif; src:url(../fonts/MalgunGothic.eot);}
+
+.inner-box{
+    width:1260px;
+    margin:0 auto;
+    min-width:1260px;
+
+        &:after{
+        display:block;
+        content:"";
+        clear:both;
+    }
+}
+
+.sub-inner{
+    width:1000px;
+    margin:0 auto;
+
+    &:after{
+        display:block;
+        content:"";
+        clear:both;
+    }
+}
+
+.sub-contents{
+    width:720px;
+    float:right;
+}
+
+.sub-title{
+    float:left;
+}
+
+.snb-title{
+    height:80px;
+}
+
+.hidden-text{
+    overflow:hidden;
+    position:absolute;
+    border:0;
+    width:1px;
+    height:1px;
+    clip:rect(1px, 1px, 1px, 1px);
+}
+
+.mt41{
+    margin-top:41px;
+}
+
+.mt15{
+    margin-top:15px;
+}
+
+.mt8{
+    margin-top:8px;
+}
+
+.login-need{
+    display:inline-block;
+    width:9px;
+    height:11px;
+    margin-left:5px;
+    background:url("../images/main/ico_gnb_loginMU.png")no-repeat;
+    position:absolute;
+    bottom:6px;
+}
+
+.bx-wrapper{
+    box-shadow:none;
+    border:0;
+    background:0;
+    position:relative;
+    margin-bottom:0;
+
+    .bx-controls-direction{
+        position:absolute;
+        right:0;
+        bottom:0;
+        width:112px;
+        height:62px;
+
+        & a{
+            position:static;
+            margin-top:0;
+            display:inline-block;
+        }
+
+        .bx-prev{
+            width:54px;
+            height:62px;
+            right:58px;
+            background:url("../images/main/ico_sldPlay.png")-58px 0 no-repeat;
+
+            &:hover,&:focus{
+                background-position:-58px -62px;
+            }
+
+            &.on{
+                background-position:-58px -62px;
+            }
+        }
+
+        .bx-next{
+            width:58px;
+            height:62px;
+            background:url("../images/main/ico_sldPlay.png")-112px 0 no-repeat;
+
+            &:hover,&:focus{
+                background-position:-112px -62px;
+            }
+
+            &.on{
+                background-position:-112px -62px;
+            }
+        }
+    }
+
+    .bx-pager.bx-default-pager{
+        position:static;
+        padding-top:30px;
+        height:8px;
+
+        & > div{
+            vertical-align:top;
+
+            &:first-child{
+
+                & a{
+                    margin-right:5px;
+                }
+            }
+        }
+
+        & a{
+            display:block;
+            margin:0;
+            width:8px;
+            height:8px;
+            background:url("../images/main/ico_sldDot.png")no-repeat;
+
+            &.active{
+                width:40px;
+                background:#383e4e url("../images/main/ico_sldDot.png")-10px 0 no-repeat;
+            }
+        }
+    }
+}
+
+
+.snb{
+    width:200px;
+    float:left;
+
+    & dt{
+        height:80px;
+        background:url("../images/sub_1/snb_title.gif")no-repeat;
+    }
+
+    .depth1{
+        width:200px;
+        border-left:1px solid #d4d9e0;
+        border-right:1px solid #d4d9e0;
+        border-bottom:1px solid #d4d9e0;
+        box-sizing:border-box;
+
+        &-link{
+            display:block;
+            font-size:14px;
+            color:#555;
+            padding:12px 30px 9px 15px;
+            line-height:20px;
+            cursor:pointer;
+            position:relative;
+
+            &:hover,&:focus,&.on{
+                color:#F36910;
+            }
+        }
+
+        .snb-more{
+            position:absolute;
+            top:50%;
+            right:13px;
+            margin-top:-5px;
+            width:9px;
+            height:9px;
+            background:url("../images/sub_1/ico_snb_on.png")right no-repeat;
+            cursor:pointer;
+
+            &.on{
+                background-position:-200px 0;
+            }
+        }
+
+
+    }
+
+    .depth2{
+        display:none;
+        background:#f7f8fa;
+        border-top:1px solid #d4d9e0;
+        padding:13px 0 15px 0;
+
+        & a{
+            display:block;
+            font-size:12px;
+            padding:4px 20px;
+            line-height:18px;
+            background:url("../images/sub_1/ico_snb_on.png")-385px 12px no-repeat;
+
+            &:hover,&:focus,&.on{
+                text-decoration:underline;
+            }
+        }
+
+        &.on{
+            display:block;
+        }
+    }
+
+    .prd-guide{
+        margin-top:30px;
+        height:76px;
+        border:1px solid #d4d9e0;
+
+        & > a{
+            display:block;
+            height:100%;
+        }
+    }
+
+}
