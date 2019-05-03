@@ -2,205 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8373e9-bb9b-40e9-8235-709d818a22c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MalgunGothic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/gnb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/daewoo-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/daewoo-isa-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-isa-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/daewoo-notice-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-notice-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/daewoo-notice-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-notice-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/daewoo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/banner_GPS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/bg_gnb_depth_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/bg_gnb_submenu1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/bg_login_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/bg_search_box.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/btn_footer_close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/btn_footer_layer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/btn_guide_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/btn_guide_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/btn_notice_more.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/btn_search.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_banner3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/event_slide9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/footer-top_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/footer-top_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/footer-top_3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/footer_banner01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/gnb_1depth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/header_quick1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/header_quick2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/header_quick3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/header_quick4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_footer_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_footer_mark1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_footer_sns.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_gnb_loginMU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_login_bar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_menuLst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_sldDot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/ico_sldPlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/img_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/m_visual_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/main_slide8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/openNtc_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/side1-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/side1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/side2-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/side2-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/side3-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/side3-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/themaCont_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/thema_menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/thema_menu_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/thema_menu_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/thema_menu_contBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/main/txt_notice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ad_title_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ad_title_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ad_title_3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ad_title_4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ad_title_5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/hkg1001n20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ico_list_square.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ico_notice.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/ico_snb_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/snb_title.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/sub_title.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/tab_top_contents.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_1/tab_top_right_img.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/banner_guide1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/banner_guide2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/bg_menu_select_off.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/bg_menu_select_on.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/bg_submain_guide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/btn_guide1_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/guide_menu1_default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/guide_menu1_on.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/guide_menu2_default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/guide_menu2_on.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/guide_menu3_default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/guide_menu3_on.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_benner_more.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_hku4000_guide1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_hku4000_guide2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_hku4000_guide3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_hku4000_guide4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_hku4000_guide5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_hku4000_guide6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_list_bar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_list_square2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_point.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/ico_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tabMenu_bar_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tabMenu_bar_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_h1_hki3059.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_h2_hki3059.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_hki3059_menu1_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_hki3059_menu1_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_hki3059_menu2_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_hki3059_menu2_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_hki3059_menu3_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/tit_hki3059_menu3_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info_01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info_02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info_03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info_04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info_05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_info_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_1_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_1_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_2_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_2_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_3_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_3_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_4_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu1_4_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_1_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_1_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_2_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_2_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_3_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_3_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_4_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu2_4_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu3_1_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu3_1_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu3_3_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu3_3_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu3_4_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_guide_menu3_4_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu1_1_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu1_2_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu1_3_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu2_2_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu2_3_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu3_1_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu3_1_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu3_1_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu3_2_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu3_2_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_info_main/txt_hki3059_menu3_2_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bbs_next.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bbs_next_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bbs_pre.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bbs_pre_end.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bbs_s_btn01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bbs_title_0000000501.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bt_calendar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/bt_search.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/ic_file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/ic_new.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/lnb_title_0000000500.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice/selectr_bg_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/sub_notice_detail/bbs_btn_list.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_include/_footer-notice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_include/_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_include/_header-sub.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_include/_header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/daewoo-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/daewoo-isa-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/daewoo-notice-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/daewoo-notice-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/daewoo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/daewoo-info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/daewoo-isa-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/daewoo-notice-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/daewoo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery-3.2.1.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_commons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_daewoo-info.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_daewoo-isa-1.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_daewoo-notice-1.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_daewoo-notice-detail.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_daewoo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_datepicker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gnb.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gnb.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -226,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="456">
+              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -270,7 +72,17 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/gnb.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="233" column="3" lean-forward="true" selection-start-line="233" selection-start-column="3" selection-end-line="233" selection-end-column="3" />
+              <folding>
+                <element signature="e#375#1350#0" />
+                <element signature="e#1381#2140#0" />
+                <element signature="e#2172#3309#0" />
+                <element signature="e#3327#3625#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -303,6 +115,7 @@
       <find>daewoo.html</find>
       <find>src=</find>
       <find>daewoo-</find>
+      <find>e.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -337,6 +150,7 @@
         <option value="$PROJECT_DIR$/html/daewoo-isa-1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/gnb.js" />
       </list>
     </option>
   </component>
@@ -364,6 +178,11 @@
               <item name="daewoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="daewoo" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="daewoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daewoo" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,15 +283,16 @@
       <workItem from="1556859994064" duration="278000" />
       <workItem from="1556860292078" duration="4059000" />
       <workItem from="1556864438958" duration="3098000" />
-      <workItem from="1556867982569" duration="98000" />
+      <workItem from="1556867982569" duration="355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36651000" />
+    <option name="totallyTimeSpent" value="36908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48698482" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -566,9 +386,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/daewoo.html" />
     <entry file="file://$PROJECT_DIR$/daewoo-info.html" />
-    <entry file="file://$PROJECT_DIR$/js/gnb.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -607,10 +424,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/gnb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="233" column="3" lean-forward="true" selection-start-line="233" selection-start-column="3" selection-end-line="233" selection-end-column="3" />
+          <folding>
+            <element signature="e#375#1350#0" />
+            <element signature="e#1381#2140#0" />
+            <element signature="e#2172#3309#0" />
+            <element signature="e#3327#3625#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="456">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
         </state>
       </provider>
     </entry>

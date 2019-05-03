@@ -241,7 +241,10 @@ $(function(){
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
 
-    $sideDepth1.on('click',function(){
+    $sideDepth1.on('click',function(e){
+
+        e.preventDefault();
+
 
         var $this = $(this);
 
