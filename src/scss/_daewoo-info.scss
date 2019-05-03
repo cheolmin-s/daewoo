@@ -321,7 +321,7 @@
                     background:url("../images/sub_info_main/tabMenu_bar_off.png")no-repeat;
                 }
 
-                &:hover{
+                &:hover,&.on{
                     color:#f36910;
 
                     .more-bar{
@@ -340,6 +340,10 @@
                 color:#666;
                 border-top:1px solid #e3e3e3;
                 display:none;
+
+                &.on{
+                    display:block;
+                }
 
                 &-title{
                     color:#222;

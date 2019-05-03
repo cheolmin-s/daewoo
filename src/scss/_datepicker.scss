@@ -1,0 +1,129 @@
+.datepicker{
+    width:191px;
+    position:absolute;
+    top:30px;
+    border:1px solid #666;
+
+
+    .ui-datepicker{
+        width:100%;
+        font-size:12px;
+        padding:0;
+        border:0;
+    }
+
+    .ui-datepicker .ui-datepicker-header{
+        padding:28px 0 13px 0;
+        border:0;
+        background:#f8f8f8;
+    }
+
+    .ui-datepicker select{
+        font-family:'Verdana',sans-serif;
+        color:#666;
+    }
+
+    .ui-datepicker select.ui-datepicker-month{
+        width:73px;
+        margin:0;
+        height:19px;
+        float:right;
+    }
+
+    .ui-datepicker select.ui-datepicker-year{
+        width:73px;
+        margin:0;
+        height:19px;
+        float:left;
+    }
+
+
+    .ui-corner-all{
+        border-radius:0;
+    }
+    .ui-datepicker-prev{
+        display:none;
+    }
+    .ui-datepicker-next{
+        display:none
+    }
+
+    .ui-datepicker .ui-datepicker-title{
+        height:19px;
+        line-height:1;
+        font-size:12px;
+        margin:0 auto;
+        padding: 0 22px 0 18px;
+    }
+
+    .ui-datepicker .ui-datepicker-title:after{
+        display:block;
+        content:"";
+        clear:both;
+    }
+
+    .ui-datepicker-year{
+        vertical-align:top;
+    }
+
+    .ui-datepicker table{
+        border:0;
+        margin:5px 13px 15px 10px;
+        width:auto;
+        font-family:"Dotum",sans-serif;
+    }
+
+    .ui-datepicker-calendar th{
+        font-size:12px;
+        color:#222;
+        padding:0;
+        line-height:29px;
+        vertical-align:middle;
+
+        &:first-child{
+            display:inline-block;
+            width:24px;
+        }
+    }
+
+    .ui-datepicker-calendar th:nth-child(6) span{
+        color:#0059a6;
+    }
+    .ui-datepicker-calendar th:nth-child(7) span{
+        color:#eb481c;
+    }
+
+    .ui-datepicker-calendar td{
+        padding:0;
+        width:100%;
+    }
+
+    .ui-datepicker-calendar td a{
+        text-align:center;
+        font-size:12px;
+        padding:0;
+        width:24px;
+        height:29px;
+        line-height:29px;
+    }
+
+    .ui-widget-content .ui-state-default{
+        background:#fff;
+        border:0;
+    }
+
+
+
+    .ui-datepicker-week-end .ui-state-default{
+        color:#eb481c;
+    }
+
+    .ui-datepicker-week-end:nth-child(2n) .ui-state-default{
+        color: #0059a6;
+    }
+
+}
+
+.datepicker2{
+    left:-6px;
+}
