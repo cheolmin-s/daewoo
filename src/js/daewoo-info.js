@@ -1,13 +1,17 @@
 $(function(){
 
-    var $infoMenu = $('.info-menu > dl');
+    var $contentsLink = $('.question-contents-link');
 
-    $infoMenu.on('mouseenter', function(){
+    $contentsLink.on('click',function(e){
 
-        var $this = $(this).children('img').index('img');
+        e.preventDefault();
 
-        $this.attr('src',url('../'))
+        var $this = $(this);
 
+        $contentsLink.siblings().removeClass('on');
+        $contentsLink.removeClass('on');
+        $this.addClass('on');
+        $this.siblings().addClass('on');
     });
 
 });
