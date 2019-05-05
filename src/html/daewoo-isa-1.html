@@ -1,22 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1300">
+    <meta name="format-detection" content="telephone=no">
+    <title>ISA 제도안내 < ISA/신탁/Wrap < 금융상품 | 미래에셋대우</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500" rel="stylesheet">
+    <script src="../../src/js/lib/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../gnb.js"></script>
+</head>
+<body>
 <!--= include _include/_header-sub.html -->
 
 <!-- 서브 콘텐츠-->
 <section class="section-container section-isa">
-    <div class="contents-main">
+    <div class="contents-main" id="contents-main">
         <h2 class="hidden-text">ISA/신탁/Wrap</h2>
         <nav class="snb snb-isa">
             <h3 class="hidden-text">서브 메뉴</h3>
-            <dl>
-                <dt><span class="hidden-text">ISA/신탁/Wrap</span></dt>
-                <dd class="depth1">
+            <div class="title"><span class="hidden-text">ISA/신탁/Wrap</span></div>
+            <ul>
+                <li class="depth1">
                     <a href="#" class="depth1-link">ISA 제도안내<span class="snb-more"><span class="hidden-text">snb-depth2 메뉴</span></span></a>
                     <ul class="depth2">
                         <li><a href="#">ISA 특징 및 장점</a></li>
                         <li><a href="#">신탁형 VS 일임형</a></li>
                     </ul>
-                </dd>
+                </li>
 
-                <dd class="depth1">
+                <li class="depth1">
                     <a href="#" class="depth1-link">신탁형 ISA 상품운용지시<span class="snb-more"><span class="hidden-text">snb-depth2 메뉴</span></span></a>
                     <ul class="depth2">
                         <li><a href="#">펀드신규매수</a></li>
@@ -34,28 +51,28 @@
                         <li><a href="#">ELS/DLS매도예약</a></li>
                         <li><a href="#">ELS/DLS매도예약취소</a></li>
                     </ul>
-                </dd>
+                </li>
 
-                <dd class="depth1">
+                <li class="depth1">
                     <a href="#" class="depth1-link">신탁형 ISA 매매내역조회<span class="snb-more"><span class="hidden-text">snb-depth2 메뉴</span></span></a>
                     <ul class="depth2">
                         <li><a href="#">체결내역조회</a></li>
                         <li><a href="#">결제 및 거래내역</a></li>
                     </ul>
-                </dd>
+                </li>
 
-                <dd class="depth1"><a href="#" class="depth1-link">신탁형 ISA <br>분산투자입력</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">신탁형 ISA 자동매매 주문내역 조회 및 정정</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">신탁형 ISA <br>납입한도 정정</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">ISA 계약조회</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">ISA 해지가계산</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">ISA 공지사항</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">Wrap Account 안내</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">Wrap Account 서비스 소개</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">Wrap Account <br>가입/운용</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">Wrap 잔고조회</a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">신탁소개 및 계약조회</a></dd>
-            </dl>
+                <li class="depth1"><a href="#" class="depth1-link">신탁형 ISA <br>분산투자입력</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">신탁형 ISA 자동매매 주문내역 조회 및 정정</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">신탁형 ISA <br>납입한도 정정</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">ISA 계약조회</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">ISA 해지가계산</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">ISA 공지사항</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">Wrap Account 안내</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">Wrap Account 서비스 소개</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">Wrap Account <br>가입/운용</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">Wrap 잔고조회</a></li>
+                <li class="depth1"><a href="#" class="depth1-link">신탁소개 및 계약조회</a></li>
+            </ul>
 
             <div class="prd-guide"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_1/hkg1001n20.gif" alt="선택상품 가이드"></a></div>
         </nav>
@@ -66,8 +83,8 @@
 
             <div class="tab-menu">
                 <ul>
-                    <li><a href="#" class="tab-menu-link" title="현재 페이지">ISA 특징 및 장점</a></li>
-                    <li><a href="#" class="tab-menu-link" title="현재 페이지">신탁형 vs 일임형</a></li>
+                    <li><a href="#" class="tab-menu-link">ISA 특징 및 장점</a></li>
+                    <li><a href="#" class="tab-menu-link">신탁형 vs 일임형</a></li>
                 </ul>
             </div>
 
@@ -76,27 +93,27 @@
                 <section class="advantages">
                     <h4 class="hidden-text">ISA 특징 및 장점</h4>
                     <dl>
-                        <dt><img src="../images/sub_1/ad_title_1.gif" alt="목돈 및 적립식 운용"></dt>
+                        <dt><img src="../images/sub_1/advantages_title_1.gif" alt="목돈 및 적립식 운용"></dt>
                         <dd>연간 2천만원을 한도로 5년간 총 1억원까지 납입이 가능합니다.<br>다만, 소득공제장기펀드(연 600만원 한도) 및 재형저축 (분기 300만원 한도)납입분은 ISA가입한도에서 차감됩니다.</dd>
                     </dl>
                     <dl>
-                        <dt><img src="../images/sub_1/ad_title_2.gif" alt="다양한 상품 분산투자"></dt>
+                        <dt><img src="../images/sub_1/advantages_title_2.gif" alt="다양한 상품 분산투자"></dt>
                         <dd>펀드 및 파생결합증권(사채포함), 예적금(예탁금) 등 다양한 상품에 분산투자 가능하며, 예금상품 편입 시 예금자 보호법이 적용됩니다. 다만, 기존의 다른 예금 등과 합산하여 금융기관별로 5천만원까지 보호됩니다.<br>(단, 우체국예금의 경우 우체국보험에 관한 법률 제4조 (국가의 지급 책임)에 의거 국가가 원리금 전액의 지급을 보장합니다.)</dd>
                     </dl>
                     <dl>
-                        <dt><img src="../images/sub_1/ad_title_3.gif" alt="자유로운 상품교체"></dt>
+                        <dt><img src="../images/sub_1/advantages_title_3.gif" alt="자유로운 상품교체"></dt>
                         <dd>운용기간 동안 시장상황에 따라 자유로운 상품교체가 가능합니다.</dd>
                     </dl>
                     <dl>
-                        <dt><img src="../images/sub_1/ad_title_4.gif" alt="소득통산"></dt>
+                        <dt><img src="../images/sub_1/advantages_title_4.gif" alt="소득통산"></dt>
                         <dd>계좌 가입기간 동안 계좌에서 발생한 이익과 손실을 통산합니다.<br>특정 자산에서 손실이 있는 경우 전체 과세대상 소득을 줄여주는 효과가 있습니다.</dd>
                     </dl>
                     <dl>
-                        <dt><img src="../images/sub_1/ad_title_5.gif" alt="비과세/분리과세 혜택"></dt>
+                        <dt><img src="../images/sub_1/advantages_title_5.gif" alt="비과세/분리과세 혜택"></dt>
                             <dd>200만원에서 최대 400만원까지 비과세 적용합니다.<br>비과세 한도 초과분의 과표에 대해서도 9.9% 분리과세 적용합니다.</dd>
                         </dl>
                     <div class="tab-notice">
-                        <h5 class="hidden-text">공지사항</h5>
+                        <h5 class="hidden-text">알려드립니다</h5>
                         <div class="tab-notice-heading">알려드립니다</div>
                         <ul>
                             <li>당사는 이 계좌에 관하여 충분히 설명할 의무가 있으며, 투자자는 투자에 앞서 그러한 설명을 충분히 들으시기 바랍니다.</li>
@@ -113,10 +130,8 @@
 
                 <section class="division">
                     <h4 class="hidden-text">신탁형 vs 일임형</h4>
-                    <table class="division-table" summary="신탁형 vs 일임형에 대한 표이고 계약형대, 판매회사, 모델 포트폴리오, 온라인 계약으로 구분되어 있습니다.">
-
-                            <!-- caption 이랑 헤딩태그랑 내용이 겹침-->
-                            <caption class="hidden-text">신탁형 ISA vs 일임형 ISA</caption>
+                    <table class="division-table">
+                            <caption class="hidden-text">신탁형 vs 일임형에 대한 표이고 계약형대, 판매회사, 모델 포트폴리오, 온라인 계약으로 구분되어 있습니다.</caption>
                             <colgroup>
                                 <col style="width:180px;">
                                 <col style="width:270px;">
@@ -127,7 +142,7 @@
                                 <tr>
                                     <th scope="col">구분</th>
                                     <th scope="col">신탁형 ISA</th>
-                                    <th scope="col" class="border-right-none">일임형 ISA</th>
+                                    <th scope="col">일임형 ISA</th>
                                 </tr>
                             </thead>
 
@@ -135,31 +150,31 @@
                                 <tr>
                                     <th scope="row">계약형태</th>
                                     <td>특정금전신탁 계약</td>
-                                    <td class="border-right-none">투자일임 계약</td>
+                                    <td>투자일임 계약</td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">판매회사</th>
-                                    <td colspan="2" class="border-right-none">증권사, 은행, 보험사</td>
+                                    <td colspan="2">증권사, 은행, 보험사</td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">모델 포트폴리오</th>
                                     <td>모델포트폴리오 제시 금지<br>(고객 운용지시 필수)</td>
-                                    <td class="border-right-none">모델포트폴리오 제시 필수<br>(자산배분위원회 운영)</td>
+                                    <td>모델포트폴리오 제시 필수<br>(자산배분위원회 운영)</td>
                                 </tr>
 
-                                <tr class="border-bottom-none">
+                                <tr>
                                     <th scope="row">온라인 계약</th>
                                     <td>불가</td>
-                                    <td class="border-right-none">불가</td>
+                                    <td>불가</td>
                                 </tr>
 
                             </tbody>
                         </table>
 
                     <div class="tab-notice">
-                        <h5 class="hidden-text">공지사항</h5>
+                        <h5 class="hidden-text">알려드립니다</h5>
                         <div class="tab-notice-heading">알려드립니다</div>
                         <ul>
                             <li>당사는 이 계좌에 관하여 충분히 설명할 의무가 있으며, 투자자는 투자에 앞서 그러한 설명을 충분히 들으시기 바랍니다.</li>
@@ -179,4 +194,6 @@
 </section>
 <!-- 푸터 -->
 <!--=include _include/_footer.html-->
+</body>
+</html>
 

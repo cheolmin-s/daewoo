@@ -1,8 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1300">
+    <meta name="format-detection" content="telephone=no">
+    <title>이용안내/안내 | 미래에셋대우</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500" rel="stylesheet">
+    <script src="../../src/js/lib/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../gnb.js"></script>
+</head>
+<body>
 <!--= include _include/_header-sub.html -->
 
 <!-- 서브 콘텐츠-->
 <section class="section-container section-info">
-    <div class="contents-main">
+    <div class="contents-main" id="contents-main">
         <h2 class="hidden-text">이용안내/문의</h2>
 
         <section class="sub-visual-info">
@@ -16,9 +33,9 @@
                         <dt class="hidden-text">트레이딩 채널</dt>
                         <dd>
                             <ul>
-                                <li><a href="#" target="_blank" title="새 창 열림">KAIROS (HTS)<span class="more-bar"></span></a></li>
-                                <li><a href="#" target="_blank" title="새 창 열림">m.Stock (MTS)<span class="more-bar"></span></a></li>
-                                <li><a href="#" target="_blank" title="새 창 열림">m.Global (MTS)<span class="more-bar"></span></a></li>
+                                <li><a href="#">KAIROS (HTS)<span class="more-bar"></span></a></li>
+                                <li><a href="#">m.Stock (MTS)<span class="more-bar"></span></a></li>
+                                <li><a href="#">m.Global (MTS)<span class="more-bar"></span></a></li>
                             </ul>
                         </dd>
                     </dl>
@@ -26,8 +43,8 @@
                         <dt class="hidden-text">투자상담</dt>
                         <dd>
                             <ul>
-                                <li><a href="#" target="_blank" title="새 창 열림">예약상담(전화상담)<span class="more-bar"></span></a></li>
-                                <li><a href="#" target="_blank" title="새 창 열림">시황SMS (Mobile서비스)<span class="more-bar"></span></a></li>
+                                <li><a href="#">예약상담(전화상담)<span class="more-bar"></span></a></li>
+                                <li><a href="#">시황SMS (Mobile서비스)<span class="more-bar"></span></a></li>
                             </ul>
                         </dd>
                     </dl>
@@ -35,15 +52,16 @@
                         <dt class="hidden-text">고객지원</dt>
                         <dd>
                             <ul>
-                                <li><a href="#" target="_blank" title="새 창 열림">고객센터/ARS<span class="more-bar"></span></a></li>
-                                <li><a href="#" target="_blank" title="새 창 열림">원격지원<span class="more-bar"></span></a></li>
+                                <li><a href="#">고객센터/ARS<span class="more-bar"></span></a></li>
+                                <li><a href="#">원격지원<span class="more-bar"></span></a></li>
                             </ul>
                         </dd>
                     </dl>
                 </div>
                 <div class="info-search">
                     <div class="info-search-left">
-                        <input type="text" placeholder="검색어를 입력하세요" class="info-search-box">
+                        <input type="text" id="search-box" class="info-search-box">
+                        <label for="search-box" class="search-box-txt">검색어를 입력하세요</label>
                         <ul class="info-search-menu">
                             <li><a href="#">계좌개설</a></li>
                             <li><a href="#">공인인증</a></li>
@@ -304,17 +322,17 @@
         </div>
 
         <section class="user-guide">
+            <h3 class="hidden-text">이용안내 가이드</h3>
             <div class="sub-inner">
-                <!-- 위에 서브 타이틀과 같은 고민 문제-->
-                <h3 class="user-guide-title"><span class="hidden-text">이용안내 가이드</span><img src="../images/sub_info_main/tit_h2_hki3059.png" alt="고객의 행복을 위해 서비스로 보답하겠습니다."></h3>
+                <div class="title"><img src="../images/sub_info_main/tit_h2_hki3059.png" alt="이용안내 가이드. 고객의 행복을 위해 서비스로 보답하겠습니다."></div>
                 <div class="user-guide-menu">
                     <ul>
                         <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide1.png" alt="온라인 서비스 가이드"></a></li>
-                        <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide2.png" alt="온라인 서비스 가이드"></a></li>
-                        <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide3.png" alt="온라인 서비스 가이드"></a></li>
-                        <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide4.png" alt="온라인 서비스 가이드"></a></li>
-                        <li><a href="#"><img src="../images/sub_info_main/ico_hku4000_guide5.png" alt="온라인 서비스 가이드"></a></li>
-                        <li><a href="#"><img src="../images/sub_info_main/ico_hku4000_guide6.png" alt="온라인 서비스 가이드"></a></li>
+                        <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide2.png" alt="트레이딩(Trading)가이드"></a></li>
+                        <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide3.png" alt="증권업무 가이드"></a></li>
+                        <li><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_info_main/ico_hku4000_guide4.png" alt="금융상품 가이드"></a></li>
+                        <li><a href="#"><img src="../images/sub_info_main/ico_hku4000_guide5.png" alt="해외주식 가이드"></a></li>
+                        <li><a href="#"><img src="../images/sub_info_main/ico_hku4000_guide6.png" alt="해외선물 가이드"></a></li>
                     </ul>
                 </div>
             </div>
@@ -323,3 +341,5 @@
 </section>
 <!-- 푸터 -->
 <!--=include _include/_footer.html-->
+</body>
+</html>

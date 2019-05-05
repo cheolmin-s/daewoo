@@ -1,29 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1300">
+    <meta name="format-detection" content="telephone=no">
+    <title>공지사항 상세페이지 < 공지/이벤트 < 이용안내/문의 | 미래에셋대우</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500" rel="stylesheet">
+    <script src="../../src/js/lib/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../gnb.js"></script>
+</head>
+<body>
 <!--= include _include/_header-sub.html -->
 
 <!-- 서브 콘텐츠-->
 <section class="section-container section-notice">
-    <div class="main-contents">
+    <div class="main-contents" id="contents-main">
         <h2 class="hidden-text">공지/이벤트</h2>
         <nav class="snb snb-notice">
             <h3 class="hidden-text">서브 메뉴</h3>
-                <dl>
-                    <dt><span class="hidden-text">공지/이벤트</span></dt>
-                    <dd class="depth1"><a href="#" class="depth1-link">공지사항<span class="more"></span></a></dd>
-                    <dd class="depth1"><a href="#" class="depth1-link">신용종목 공지사항<span class="more"></span></a></dd>
-                    <dd class="depth1">
-                        <a href="#" class="depth1-link">해외주식/파생 공지사항<span class="snb-more"><span class="hidden-text">depth2 메뉴</span></span></a>
-                        <ul class="depth2">
-                            <li><a href="#">해외주식 공지사항</a></li>
-                            <li><a href="#">해외주식 권리 및 매매정지</a></li>
-                            <li><a href="#">해외주식 휴장일</a></li>
-                            <li><a href="#">해외주식 공지사항</a></li>
-                        </ul>
-                    </dd>
-                    <dd class="depth1"><a href="#" class="depth1-link">진행중인 이벤트<span class="more"></span></a></dd>
-                    <dd class="depth1"><a href="#" class="depth1-link">지난 이벤트<span class="more"></span></a></dd>
-                    <dd class="depth1"><a href="#" class="depth1-link">당첨자 발표<span class="more"></span></a></dd>
-                </dl>
-            </nav>
+            <div class="title"><span class="hidden-text">공지/이벤트</span></div>
+            <ul>
+                <li class="depth1"><a href="#" class="depth1-link">공지사항<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">신용종목 공지사항<span class="more"></span></a></li>
+                <li class="depth1">
+                    <a href="#" class="depth1-link">해외주식/파생 공지사항<span class="snb-more"><span class="hidden-text">depth2 메뉴</span></span></a>
+                    <ul class="depth2">
+                        <li><a href="#">해외주식 공지사항</a></li>
+                        <li><a href="#">해외주식 권리 및 매매정지</a></li>
+                        <li><a href="#">해외주식 휴장일</a></li>
+                        <li><a href="#">해외주식 공지사항</a></li>
+                    </ul>
+                </li>
+                <li class="depth1"><a href="#" class="depth1-link">진행중인 이벤트<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">지난 이벤트<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">당첨자 발표<span class="more"></span></a></li>
+            </ul>
+        </nav>
 
         <section class="sub-contents">
                 <h3 class="sub-title notice-title"><span class="hidden-text">공지사항</span></h3>
@@ -58,6 +75,7 @@
                                         <col style="width:20%">
                                         <col style="width:14%">
                                         <col style="width:33%;">
+                                        <col>
                                     </colgroup>
                                     <thead>
                                         <tr>
@@ -171,3 +189,5 @@
 </section>
 <!-- 푸터 -->
 <!--=include _include/_footer-notice.html-->
+</body>
+</html>

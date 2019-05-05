@@ -15,12 +15,13 @@ $(function(){
     $snbDepth1Link.on('click',function(e){
         e.stopPropagation();
 
+        var $this = $(this);
         $snbMore.removeClass('on');
         $snbDepth2.removeClass('on');
         $snbDepth1Link.removeClass('on');
-        $(this).siblings($snbDepth2).addClass('on');
-        $(this).children($snbMore).addClass('on');
-        $(this).addClass('on');
+        $this.siblings($snbDepth2).addClass('on');
+        $this.children($snbMore).addClass('on');
+        $this.addClass('on');
 
     });
 
@@ -28,11 +29,17 @@ $(function(){
 
         e.stopPropagation();
 
+        var $this = $(this);
+
+        $snbDepth1Link.removeClass('on');
         $snbMore.removeClass('on');
         $snbDepth2.removeClass('on');
+        $this.addClass('on');
+        $this.siblings($snbDepth2).addClass('on');
+        $this.children($snbMore).addClass('on');
+    });
+    $snbDepth1Link.last().focus(function(){
         $snbDepth1Link.removeClass('on');
-        $(this).siblings($snbDepth2).addClass('on');
-        $(this).children($snbMore).addClass('on');
     });
 
 });

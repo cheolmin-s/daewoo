@@ -15,3 +15,18 @@ $(function(){
     });
 
 });
+
+$(function(){
+
+    var $inputTxtBox = $('.info-search-box');
+    var $label = $('.search-box-txt');
+
+
+    $inputTxtBox.focus(function(){
+        $label.hide();
+    });
+
+    $inputTxtBox.focusout(function(){
+        $label.show();
+    });
+});

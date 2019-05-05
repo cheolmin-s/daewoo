@@ -28,7 +28,6 @@ gulp.task('watch', function() {
   livereload.listen();
   gulp.watch('*', ['livereload']);
   gulp.watch('src/html/**', ['include', 'livereload']);
-  gulp.watch('src/**', ['autoprefixer', 'livereload']);
   gulp.watch('src/scss/**', ['sass', 'livereload']);
   gulp.watch('src/js/**', ['jsconcat', 'livereload']);
 });
@@ -43,28 +42,20 @@ gulp.task('include', function(){
 });
 
 
-// sass 실행
+// sass, autoprefixer 실행
 
 gulp.task('sass', function(){
   return gulp.src('src/scss/*.scss')
       .pipe(sourcemaps.init())
       .pipe(sass({outputStyle: 'compact'}).on('error', sass.logError))
+      .pipe(autoprefixer({
+          browsers: ['last 2 versions'],
+          cascade: false
+      }))
       .pipe(sourcemaps.write())
+      .pipe(concat('style.css'))
       .pipe(gulp.dest('dist/css'));
 });
-
-//오토프리픽스
-gulp.task('autoprefixer',function() {
-    gulp.src('src/scss/*.scss')
-        .pipe(sass({outputStyle: 'compact'}).on('error', sass.logError))
-        .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-        }))
-        .pipe(concat('style.css'))
-        .pipe(gulp.dest('dist/css'));
-});
-
 
 // concat 실행 - 여러 개의 파일을 하나의 파일로 합치는 기능
 gulp.task('gnb', function() {
@@ -79,4 +70,4 @@ gulp.task('gnb', function() {
 
 gulp.task('jsconcat', ['gnb']);
 
-gulp.task('default', ['livereload', 'include','sass','autoprefixer','jsconcat', 'watch']);
+gulp.task('default', ['livereload', 'include','sass','jsconcat', 'watch']);

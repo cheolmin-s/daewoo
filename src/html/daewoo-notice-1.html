@@ -1,16 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1300">
+    <meta name="format-detection" content="telephone=no">
+    <title>공지사항 < 공지/이벤트 < 이용안내/문의 | 미래에셋대우</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500" rel="stylesheet">
+    <script src="../../src/js/lib/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../gnb.js"></script>
+</head>
+<body>
 <!--= include _include/_header-sub.html -->
 
 <!-- 서브 콘텐츠-->
 <section class="section-container section-notice">
-    <div class="main-contents">
+    <div class="main-contents" id="contents-main">
         <h2 class="hidden-text">공지/이벤트</h2>
         <nav class="snb snb-notice">
             <h3 class="hidden-text">서브 메뉴</h3>
-            <dl>
-                <dt><span class="hidden-text">공지/이벤트</span></dt>
-                <dd class="depth1"><a href="#" class="depth1-link">공지사항<span class="more"></span></a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">신용종목 공지사항<span class="more"></span></a></dd>
-                <dd class="depth1">
+            <div class="title"><span class="hidden-text">공지/이벤트</span></div>
+            <ul>
+                <li class="depth1"><a href="#" class="depth1-link">공지사항<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">신용종목 공지사항<span class="more"></span></a></li>
+                <li class="depth1">
                     <a href="#" class="depth1-link">해외주식/파생 공지사항<span class="snb-more"><span class="hidden-text">depth2 메뉴</span></span></a>
                     <ul class="depth2">
                         <li><a href="#">해외주식 공지사항</a></li>
@@ -18,11 +35,11 @@
                         <li><a href="#">해외주식 휴장일</a></li>
                         <li><a href="#">해외주식 공지사항</a></li>
                     </ul>
-                </dd>
-                <dd class="depth1"><a href="#" class="depth1-link">진행중인 이벤트<span class="more"></span></a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">지난 이벤트<span class="more"></span></a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">당첨자 발표<span class="more"></span></a></dd>
-            </dl>
+                </li>
+                <li class="depth1"><a href="#" class="depth1-link">진행중인 이벤트<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">지난 이벤트<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">당첨자 발표<span class="more"></span></a></li>
+            </ul>
         </nav>
 
         <section class="sub-contents">
@@ -46,20 +63,22 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2" class="info">
-                                <select name="" id="" class="date-select select-search">
+                            <td class="info">
+                                <select name="type" id="select-type" class="date-select select-search">
                                     <option value="제목">제목</option>
                                     <option value="제목">본문</option>
                                     <option value="제목">제목+본문</option>
                                 </select>
-                                <input type="text" class="search-text">
+                                <label for="select-type" class="hidden-text">검색분류</label>
+                                <input type="text" id="search-text" class="search-text">
+                                <label for="search-text" class="hidden-text">검색창</label>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" rowspan="2" class="title">검색기간</th>
+                            <th scope="row" class="title">검색기간</th>
                             <td class="info">
                                 <div class="date-wrap">
-                                    <select name="" id="" class="date-select date-year">
+                                    <select name="year-start-type" id="year-start" class="date-select date-year">
                                         <option value="2000">2000</option>
                                         <option value="2001">2001</option>
                                         <option value="2002">2002</option>
@@ -81,7 +100,8 @@
                                         <option value="2018">2018</option>
                                         <option value="2019">2019</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-month">
+                                    <label for="year-start" class="hidden-text">시작 년도 선택</label>
+                                    <select name="month-start-type" id="month-start" class="date-select date-month">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -95,7 +115,8 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-day">
+                                    <label for="month-start" class="hidden-text">시작 월 선택</label>
+                                    <select name="day-start-type" id="day-start" class="date-select date-day">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -109,12 +130,13 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
+                                    <label for="day-start" class="hidden-text">시작 일 선택</label>
                                     <a href="#" class="calendar-link"><img src="../images/sub_notice/bt_calendar.gif" alt="달력"></a>
                                     <div class="datepicker"></div>
                                 </div>
-                                <span class="icon">&nbsp;~</span>
+                                <span class="icon"> ~</span>
                                 <div class="date-wrap">
-                                    <select name="" id="" class="date-select date-year">
+                                    <select name="year-end-type" id="year-end" class="date-select date-year">
                                         <option value="2000">2000</option>
                                         <option value="2001">2001</option>
                                         <option value="2002">2002</option>
@@ -136,7 +158,8 @@
                                         <option value="2018">2018</option>
                                         <option value="2019">2019</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-month">
+                                    <label for="year-end" class="hidden-text">끝나는 년도 선택</label>
+                                    <select name="month-end-type" id="month-end" class="date-select date-month">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -150,7 +173,8 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-day">
+                                    <label for="month-end" class="hidden-text">끝나는 월 선택</label>
+                                    <select name="day-end-type" id="day-end" class="date-select date-day">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -164,6 +188,7 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
+                                    <label for="day-end" class="hidden-text">끝나는 일 선택</label>
                                     <a href="#" class="calendar-link"><img src="../images/sub_notice/bt_calendar.gif" alt="달력"></a>
                                     <div class="datepicker datepicker2"></div>
                                 </div>
@@ -184,11 +209,11 @@
             </div>
 
             <div class="notice-contents">
-                <div class="notice-table-total">
-                    전체건수 :<span class="total-number">314</span>건
+                <div class="total">
+                    전체건수 :<span class="number">314</span>건
                 </div>
-                <table class="notice-table" summary="공지사항 게시판에 대한 표 이고 작성일, 제목, 첨부파일로 구분 되어 있습니다.">
-                    <caption class="hidden-text">공지사항 게시판</caption>
+                <table class="table">
+                    <caption class="hidden-text">공지사항 게시판에 대한 표 이고 작성일, 제목, 첨부파일로 구분 되어 있습니다.</caption>
                     <colgroup>
                         <col style="width:110px">
                         <col style="width:540px">
@@ -203,81 +228,82 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td class="notice-table-date">2019-04-09</td>
-                        <td class="notice-heading"><a href="daewoo-notice-detail.html" class="notice-heading-point">KRX 장 운영 시간 변경에 따른 주문시간 및 반대매매처리 관련 변경 안내(19.4.29)</a></td>
+                        <td class="date">2019-04-09</td>
+                        <td class="heading"><a href="daewoo-notice-detail.html" class="point">KRX 장 운영 시간 변경에 따른 주문시간 및 반대매매처리 관련 변경 안내(19.4.29)</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2018-10-05</td>
-                        <td class="notice-heading"><a href="#" class="notice-heading-point">주식 통합증거금 개선 시행 안내</a></td>
+                        <td class="date">2018-10-05</td>
+                        <td class="heading"><a href="#" class="point">주식 통합증거금 개선 시행 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2018-10-14</td>
-                        <td class="notice-heading"><a href="#" class="notice-heading-point">미수/미납 변제 우선순위 변경안내</a></td>
+                        <td class="date">2018-10-14</td>
+                        <td class="heading"><a href="#" class="point">미수/미납 변제 우선순위 변경안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-05-02</td>
-                        <td class="notice-heading">
+                        <td class="date">2019-05-02</td>
+                        <td class="heading">
                             <a href="#">[모바일] m.Stock 주식주문 화면 변경 안내</a>
-                            <span class="notice-table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
+                            <span class="table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-05-02</td>
-                        <td class="notice-heading">
+                        <td class="date">2019-05-02</td>
+                        <td class="heading">
                             <a href="#">KDB산업은행 신규 전산시스템 도입(5/4)에 따른 금융거래 일시 중단 안내</a>
-                            <span class="notice-table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
+                            <span class="table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-05-02</td>
-                        <td class="notice-heading">
+                        <td class="date">2019-05-02</td>
+                        <td class="heading">
                             <a href="#">2019년 5월 장내파생상품시장 증거금률 정기조정 안내</a>
-                            <span class="notice-table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
+                            <span class="table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
                         </td>
-                        <td class="notice-table-attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
+                        <td class="attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-30</td>
-                        <td class="notice-heading"><a href="#">입출금 이체 및 대체 약관 개정 안내</a></td>
-                        <td class="notice-table-attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
+                        <td class="date">2019-04-30</td>
+                        <td class="heading"><a href="#">입출금 이체 및 대체 약관 개정 안내</a></td>
+                        <td class="attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-30</td>
-                        <td class="notice-heading"><a href="#">근로자의 날 휴장 안내 (5/1)</a></td>
+                        <td class="date">2019-04-30</td>
+                        <td class="heading"><a href="#">근로자의 날 휴장 안내 (5/1)</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-29</td>
-                        <td class="notice-heading"><a href="#">[해외주식] 2019년 5월 휴장공지 안내</a></td>
+                        <td class="date">2019-04-29</td>
+                        <td class="heading"><a href="#">[해외주식] 2019년 5월 휴장공지 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-26</td>
-                        <td class="notice-heading"><a href="#">미래에셋대우 점포 통합 운영 안내 (5月)</a></td>
+                        <td class="date">2019-04-26</td>
+                        <td class="heading"><a href="#">미래에셋대우 점포 통합 운영 안내 (5月)</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-25</td>
-                        <td class="notice-heading"><a href="#">한국모바일인증(4/26) 작업 안내</a></td>
+                        <td class="date">2019-04-25</td>
+                        <td class="heading"><a href="#">한국모바일인증(4/26) 작업 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-25</td>
-                        <td class="notice-heading"><a href="#">미래에셋 S&P500 VIX S/T 선물 ETN(종목번호 : 520025) 만기상환 및 상장폐지예정 안내</a></td>
+                        <td class="date">2019-04-25</td>
+                        <td class="heading"><a href="#">미래에셋 S&P500 VIX S/T 선물 ETN(종목번호 : 520025) 만기상환 및 상장폐지예정 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-24</td>
-                        <td class="notice-heading"><a href="#">미래에셋대우 제51기 임시주총 의결권대리행사 권유 안내</a></td>
-                        <td class="notice-table-attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
+                        <td class="date">2019-04-24</td>
+                        <td class="heading"><a href="#">미래에셋대우 제51기 임시주총 의결권대리행사 권유 안내</a></td>
+                        <td class="attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
                     </tr>
                     </tbody>
                 </table>
-                <div class="notice-paging">
+                <div class="paging">
                     <span>
                         <a href="#"><img src="../images/sub_notice/bbs_pre_end.gif" alt="첫 페이지"></a>
                         <a href="#"><img src="../images/sub_notice/bbs_pre.gif" alt="이전 페이지"></a>
@@ -305,3 +331,5 @@
 </section>
 <!-- 푸터 -->
 <!--=include _include/_footer-notice.html-->
+</body>
+</html>

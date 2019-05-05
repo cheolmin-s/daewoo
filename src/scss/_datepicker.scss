@@ -3,6 +3,11 @@
     position:absolute;
     top:30px;
     border:1px solid #666;
+    display:none;
+
+    &.on{
+        display:block;
+    }
 
 
     .ui-datepicker{

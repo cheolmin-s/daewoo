@@ -47,7 +47,20 @@ $(function(){
 
 });
 
-$( function() {
+$(function(){
+
+    var $calendarLink = $('.calendar-link');
+
+    $calendarLink.on('click',function (e) {
+
+        e.preventDefault();
+
+        $(this).siblings().toggleClass('on');
+    })
+
+});
+
+$(function() {
     $('.datepicker').datepicker({
         changeMonth: true,
         changeYear: true,
