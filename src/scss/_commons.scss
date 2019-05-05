@@ -1,0 +1,662 @@
+@font-face {font-family:'MalgunGothic',sans-serif; src:url(../fonts/MalgunGothic.eot);}
+
+.inner-box{
+    width:1260px;
+    margin:0 auto;
+
+        &:after{
+        display:block;
+        content:"";
+        clear:both;
+    }
+}
+
+.common-header{
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    height:155px;
+    background:#fff;
+    z-index:50;
+    min-width:1280px;
+
+    .util-wrap{
+        height:99px;
+        border-bottom:1px solid #e8e8e8;
+
+        &:after{
+            display:block;
+            content:"";
+            clear:both;
+        }
+
+        .logo{
+            font-size:0;
+            float:left;
+            width:160px;
+            height:99px;
+
+            &-link{
+                display:block;
+                width:100%;
+                height:99px;
+                background:url("../images/main/img_logo.gif")no-repeat;
+            }
+        }
+
+        .util{
+            float:right;
+            margin-top:40px;
+
+            &:after{
+                display:block;
+                content:"";
+                clear:both;
+            }
+
+            .quick-box{
+                float:left;
+
+                &-list{
+
+                    &:after{
+                        display:block;
+                        content:"";
+                        clear:both;
+                    }
+
+                    & > li{
+                        float:left;
+                        margin-right:20px;
+                        font-size:0;
+                    }
+                }
+
+                &-link{
+                    display:block;
+                    height:100%;
+                }
+            }
+
+            .login{
+                width:158px;
+                height:32px;
+                float:left;
+                margin-right:15px;
+
+                &-wrap{
+                    height:100%;
+                    line-height:32px;
+                    padding-left:37px;
+                    box-sizing:border-box;
+                    background:url("../images/main/bg_login_off.png")no-repeat;
+                    border-right:1px solid #d5d7d9;
+
+                    &:after{
+                        display:block;
+                        content:"";
+                        clear:both;
+                    }
+
+                    .bar{
+                        background:url("../images/main/ico_login_bar.gif")no-repeat right;
+                        padding-right:12px;
+                    }
+
+                    & span{
+                        float:left;
+
+                        &:nth-child(2){
+                            margin-left:14px;
+                        }
+                    }
+                }
+
+                &-link{
+                    font-size:11px;
+                    display:inline-block;
+                    height:100%;
+                }
+            }
+
+            .search-box{
+                width:190px;
+                height:32px;
+                position:relative;
+                float:left;
+
+                .input-search{
+                    border:0;
+                    padding:0 0 0 12px;
+                    box-sizing:border-box;
+                    font-size:11px;
+                    font-family:'Arial',sans-serif;
+                    width:100%;
+                    height:100%;
+                    background:url("../images/main/bg_search_box.gif")no-repeat;
+
+                    &::-webkit-input-placeholder{
+                        color:#a1a5a8;
+                        font-weight:bold;
+                    }
+                }
+
+                &-btn{
+                    width:57px;
+                    height:32px;
+                    border:0;
+                    padding:0;
+                    position:absolute;
+                    top:0;
+                    right:0;
+                    background:url("../images/main/btn_search.gif")no-repeat;
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+
+    .gnb-wrap{
+        height:54px;
+        border-bottom:1px solid #e8e8e8;
+        z-index:5;
+        position:relative;
+        text-align:center;
+
+        .gnb{
+            height:54px;
+            z-index:4;
+            display:inline-block;
+            margin-top:-1px;
+
+            &-depth1{
+
+                &:after{
+                    display:block;
+                    content:"";
+                    clear:both;
+                }
+
+                & > li{
+                    float:left;
+                }
+
+                &-link{
+                    display:block;
+                    height:54px;
+                    position:relative;
+
+                    &:before{
+                        display:block;
+                        content:"";
+                        position:absolute;
+                        top:0;
+                        left:0;
+                        width:100%;
+                        height:100%;
+                        background:url("../images/main/gnb_1depth.png")no-repeat;
+                    }
+
+                    &.menu1{
+                        width:107px;
+
+                        &.on{
+                            &:before{
+                                background-position:0 -120px;
+                            }
+                        }
+                    }
+
+                    &.menu2{
+                        width:135px;
+
+                        &:before{
+                            background-position:-107px 0;
+                        }
+
+                        &.on{
+                            &:before{
+                                background-position:-107px -120px;
+                            }
+                        }
+
+                    }
+                    &.menu3{
+
+                        width:134px;
+
+                        &:before{
+                            background-position:-242px 0;
+                        }
+
+                        &.on{
+
+                            &:before{
+                                background-position:-242px -120px;
+                            }
+                        }
+
+
+                    }
+                    &.menu4{
+                        width:135px;
+
+                        &:before{
+                            background-position:-376px 0;
+                        }
+
+                        &.on{
+                            &:before{
+                                background-position:-376px -120px;
+                            }
+                        }
+
+
+                    }
+                    &.menu5{
+                        width:176px;
+
+                        &:before{
+                            background-position:-511px 0;
+                        }
+
+                        &.on{
+                            &:before{
+                                background-position:-511px -120px;
+                            }
+                        }
+
+                    }
+                    &.menu6{
+                        width:186px;
+
+                        &:before{
+                            background-position:-687px 0;
+                        }
+
+                        &.on{
+                            &:before{
+                                background-position:-687px -120px;
+                            }
+                        }
+
+
+                    }
+                    &.menu7{
+
+                        width:127px;
+
+                        &:before{
+                            background-position:-873px 0;
+                        }
+
+                        &.on{
+                            &:before{
+                                background-position:-873px -120px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .gnb-depth2-container{
+                position:absolute;
+                width:100%;
+                top:55px;
+                left:0;
+                height:auto;
+                background:#fff;
+                padding:30px 0;
+                border-bottom:1px solid #f36910;
+                display:none;
+
+                &.on{
+                    display:block;
+                }
+            }
+
+            &-depth2{
+                width:1000px;
+                margin:0 auto;
+                padding-right:45px;
+                background:url("../images/main/bg_gnb_submenu1.gif")repeat-y 0 0; /* 사이트 코드확인 */
+                text-align:left;
+
+                &:after{
+                    display:block;
+                    content:"";
+                    clear:both;
+                }
+
+                .wrap{
+                    width:20%;
+                    float:left;
+
+                    .title-link{
+                        font-size:14px;
+                        font-weight:bold;
+                        color:#232323;
+                        padding:0 20px;
+                        line-height:20px;
+                        margin-bottom:9px;
+                        display:inline-block;
+
+                        &:hover,&:focus{
+                            text-decoration:underline;
+                        }
+                    }
+                }
+
+                & dt{
+                    font-size:14px;
+                    font-weight:bold;
+                    color:#232323;
+                    padding:0 20px;
+                    line-height:20px;
+                    margin-bottom:9px;
+                }
+
+                & dd{
+                    position:relative;
+                }
+
+                &-link{
+                    display:block;
+                    font-size:12px;
+                    color:#63686d;
+                    padding:5px 20px 3px 20px;
+                    line-height:18px;
+                    z-index:5;
+                    position:relative;
+
+                    &.on{
+                        background:#0059a6;
+                        color:#fff;
+
+                        &:hover{
+                            color:#fff;
+                            text-decoration:none;
+                        }
+                    }
+
+                    &:hover,&:focus{
+                        text-decoration:underline;
+                        color:#F36910;
+                    }
+                }
+
+                .more{
+                    position:absolute;
+                    top:0;
+                    right:0;
+                    display:inline-block;
+                    width:28px;
+                    height:28px;
+                    background:url("../images/main/bg_gnb_depth_04.png")1px 9px no-repeat;
+                    z-index:10;
+                    cursor:pointer;
+
+                    &.on{
+                        background:url("../images/main/bg_gnb_depth_04.png")1px -17px no-repeat;
+                    }
+                }
+
+
+            }
+
+            &-depth3{
+                position:absolute;
+                width:198px;
+                border:1px solid #0059a6;
+                padding:10px 0;
+                background:#fff;
+                display:none;
+                z-index:30;
+
+                &.on{
+                    display:block;
+                }
+
+                &-link{
+                    display:block;
+                    font-size:12px;
+                    color:#63686d;
+                    line-height:18px;
+                    padding:4px 20px 4px 20px;
+                    position:relative;
+
+                    .login-need{
+                        bottom:7px;
+                    }
+
+                    &:hover,&:focus{
+                        text-decoration:underline;
+                        color:#F36910;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.sub-inner{
+    width:1000px;
+    margin:0 auto;
+
+    &:after{
+        display:block;
+        content:"";
+        clear:both;
+    }
+}
+
+.sub-contents{
+    width:720px;
+    float:right;
+}
+
+.sub-title{
+    float:left;
+}
+
+.snb-title{
+    height:80px;
+}
+
+.hidden-text{
+    overflow:hidden;
+    position:absolute;
+    border:0;
+    width:1px;
+    height:1px;
+    clip:rect(1px, 1px, 1px, 1px);
+}
+
+.mt41{
+    margin-top:41px;
+}
+
+.mt15{
+    margin-top:15px;
+}
+
+.mt8{
+    margin-top:8px;
+}
+
+.login-need{
+    display:inline-block;
+    width:9px;
+    height:11px;
+    margin-left:5px;
+    background:url("../images/main/ico_gnb_loginMU.png")no-repeat;
+    position:absolute;
+    bottom:6px;
+}
+
+.bx-wrapper{
+    box-shadow:none;
+    border:0;
+    background:0;
+    position:relative;
+    margin-bottom:0;
+
+    .bx-controls-direction{
+        position:absolute;
+        right:0;
+        bottom:0;
+        width:112px;
+        height:62px;
+
+        & a{
+            position:static;
+            margin-top:0;
+            display:inline-block;
+        }
+
+        .bx-prev{
+            width:54px;
+            height:62px;
+            right:58px;
+            background:url("../images/main/ico_sldPlay.png")-58px 0 no-repeat;
+
+            &:hover,&:focus{
+                background-position:-58px -62px;
+            }
+
+            &.on{
+                background-position:-58px -62px;
+            }
+        }
+
+        .bx-next{
+            width:58px;
+            height:62px;
+            background:url("../images/main/ico_sldPlay.png")-112px 0 no-repeat;
+
+            &:hover,&:focus{
+                background-position:-112px -62px;
+            }
+
+            &.on{
+                background-position:-112px -62px;
+            }
+        }
+    }
+
+    .bx-pager.bx-default-pager{
+        position:static;
+        padding-top:30px;
+        height:8px;
+
+        & > div{
+            vertical-align:top;
+
+            &:first-child{
+
+                & a{
+                    margin-right:5px;
+                }
+            }
+        }
+
+        & a{
+            display:block;
+            margin:0;
+            width:8px;
+            height:8px;
+            background:url("../images/main/ico_sldDot.png")no-repeat;
+
+            &.active{
+                width:40px;
+                background:#383e4e url("../images/main/ico_sldDot.png")-10px 0 no-repeat;
+            }
+        }
+    }
+}
+
+
+.snb{
+    width:200px;
+    float:left;
+
+    .title{
+        height:80px;
+    }
+
+    .depth1{
+        width:200px;
+        border-left:1px solid #d4d9e0;
+        border-right:1px solid #d4d9e0;
+        border-bottom:1px solid #d4d9e0;
+        box-sizing:border-box;
+
+        &-link{
+            display:block;
+            font-size:14px;
+            color:#555;
+            padding:12px 30px 9px 15px;
+            line-height:20px;
+            cursor:pointer;
+            position:relative;
+
+            &:hover,&:focus,&.on{
+                color:#F36910;
+            }
+        }
+
+        .snb-more{
+            position:absolute;
+            top:50%;
+            right:13px;
+            margin-top:-5px;
+            width:9px;
+            height:9px;
+            background:url("../images/sub_1/ico_snb_on.png")right no-repeat;
+            cursor:pointer;
+
+            &.on{
+                background-position:-200px 0;
+            }
+        }
+
+
+    }
+
+    .depth2{
+        display:none;
+        background:#f7f8fa;
+        border-top:1px solid #d4d9e0;
+        padding:13px 0 15px 0;
+
+        & a{
+            display:block;
+            font-size:12px;
+            padding:4px 20px;
+            line-height:18px;
+            background:url("../images/sub_1/ico_snb_on.png")-385px 12px no-repeat;
+
+            &:hover,&:focus,&.on{
+                text-decoration:underline;
+            }
+        }
+
+        &.on{
+            display:block;
+        }
+    }
+
+    .prd-guide{
+        margin-top:30px;
+        height:76px;
+        border:1px solid #d4d9e0;
+
+        & > a{
+            display:block;
+            height:100%;
+        }
+    }
+
+}

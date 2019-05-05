@@ -2,17 +2,17 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1260">
-    <meta name="format-detection" content="telephone=no"/>
-    <title>미래에셋대우</title>
+    <meta name="viewport" content="width=1300">
+    <meta name="format-detection" content="telephone=no">
+    <title>공지사항 < 공지/이벤트 < 이용안내/문의 | 미래에셋대우</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500" rel="stylesheet">
-    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../../src/js/lib/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="../js/gnb.js"></script>
+    <script src="../gnb.js"></script>
 </head>
 <body>
 <!-- 스킵 네비게이션-->
@@ -28,13 +28,13 @@
     </div>
 </div>
 <!-- 헤더 -->
-<header class="header-main header-sub">
+<header class="common-header sub-header">
     <div class="util-wrap">
         <div class="inner-box">
-            <h1 class="logo"><a href="../daewoo.html" class="logo-link"><img src="../images/main/img_logo.gif" alt="미래에셋대우 로고"><span class="hidden-text">미래에셋대우</span></a></h1>
+            <h1 class="logo"><a href="daewoo.html" class="logo-link"><span class="hidden-text">미래에셋대우</span></a></h1>
 
             <div class="util">
-                <div class="quick-box">
+                <div class="quick-box">b
                     <ul class="quick-box-list">
                         <li><a href="#" class="quick-box-link"><img src="../images/main/header_quick1.gif" alt="금융소비자포털"></a></li>
                         <li><a href="#" class="quick-box-link"><img src="../images/main/header_quick2.gif" alt="공인인증센터"></a></li>
@@ -65,9 +65,9 @@
                 </li>
                 <li>
                     <a href="daewoo-isa-1.html" class="gnb-depth1-link menu2"><span class="hidden-text">금융상품</span></a>
-                    <div class="gnb-depth2-wrap">
-                        <ul class="gnb-depth2">
-                            <li>
+                    <div class="gnb-depth2-container">
+                        <div class="gnb-depth2">
+                            <div class="wrap">
                                 <dl>
                                     <dt>추천상품</dt>
                                     <dd><a href="#" class="gnb-depth2-link">월간 추천상품</a></dd>
@@ -81,8 +81,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">선택형 Advisor<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">매매진행 조회<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>펀드</dt>
                                     <dd>
@@ -131,8 +131,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">Wrap형CMA 이자금액조회<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">투자트렌드</a></dd>
                                 </dl>
-                            </li>
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>ELS/DLS/ETN</dt>
                                     <dd><a href="#" class="gnb-depth2-link">ELS/DLS캘린더</a></dd>
@@ -195,8 +195,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">USD RP</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">RP매매(수시형)<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>ISA/신탁/Wrap</dt>
                                     <dd>
@@ -254,9 +254,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">모집수수료율</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">제휴보험사 소개</a></dd>
                                 </dl>
-                            </li>
-
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>세금혜택상품</dt>
                                     <dd>
@@ -276,8 +275,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">재형저축펀드/<br>소득공제장기펀드</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">벤처기업투자신탁(펀드)</a></dd>
                                 </dl>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </li>
@@ -285,13 +284,10 @@
 
                 <li><a href="#" class="gnb-depth1-link menu3"><span class="hidden-text">연금자산</span></a>
 
-                    <div class="gnb-depth2-wrap">
-                        <ul class="gnb-depth2">
-                            <li>
-                                <dl>
-                                    <dt><a href="#">MY연금</a></dt>
-                                    <dd>&nbsp;</dd>
-                                </dl>
+                    <div class="gnb-depth2-container">
+                        <div class="gnb-depth2">
+                            <div class="wrap">
+                                <a href="#" class="title-link">MY연금</a>
 
                                 <dl class="mt41">
                                     <dt>MY개인연금</dt>
@@ -318,8 +314,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">개인연금 종목 전환/교체<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">개인연금 분산투자정보 변경<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>개인연금 GPS<br>(Global Portfolio Solution)</dt>
                                     <dd>
@@ -337,7 +333,6 @@
                                 </dd><dd><a href="#" class="gnb-depth2-link">선택형 Advisor<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a>
                                 </dd><dd><a href="#" class="gnb-depth2-link">매매진행 조회<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a>
                                 </dd></dl>
-
                                 <dl class="mt41">
                                     <dt>개인연금관리</dt>
                                     <dd><a href="#" class="gnb-depth2-link">개인연금제도</a></dd>
@@ -347,14 +342,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">개인연금계좌개설<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">연금저축 신용카드 서비스</a></dd>
                                 </dl>
-
-                                <dl class="mt41">
-                                    <dt><a href="#">연금계산기</a></dt>
-                                    <dd>&nbsp;</dd>
-                                </dl>
-                            </li>
-
-                            <li>
+                                <a href="#" class="title-link mt41">연금계산기</a>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>MY퇴직연금</dt>
                                     <dd>
@@ -407,9 +397,8 @@
                                 </dd><dd><a href="#" class="gnb-depth2-link">IRP연금개시정보<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a>
                                 </dd><dd><a href="#" class="gnb-depth2-link">IRP해지신청<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a>
                                 </dd></dl>
-                            </li>
-
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>퇴직연금서비스</dt>
                                     <dd>
@@ -436,9 +425,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">DB운용가이드</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">공지/상담</a></dd>
                                 </dl>
-                            </li>
-
-                            <li>
+                            </div>
+                            <div class="wrap">
                                 <dl>
                                     <dt>사업자공시</dt>
                                     <dd><a href="#" class="gnb-depth2-link">공지사항</a></dd>
@@ -453,20 +441,17 @@
                                     <dd><a href="#" class="gnb-depth2-link">원리금보장상품</a></dd>
                                 </dl>
 
-                                <dl class="mt41">
-                                    <dt><a href="#">퇴직연금(DC/IRP)<br>간편조회</a></dt>
-                                </dl>
-                            </li>
-
-                        </ul>
+                                <a href="#" class="title-link mt41">퇴직연금(DC/IRP)<br>간편조회</a>
+                            </div>
+                        </div>
                     </div>
 
                 </li>
                 <li><a href="#" class="gnb-depth1-link menu4"><span class="hidden-text">투자정보</span></a>
 
-                    <div class="gnb-depth2-wrap">
-                        <ul class="gnb-depth2">
-                            <li>
+                    <div class="gnb-depth2-container">
+                        <div class="gnb-depth2">
+                            <div class="wrap">
                                 <dl>
                                     <dt>정기리포트</dt>
                                     <dd><a href="#" class="gnb-depth2-link">일간리포트(Daily)</a></dd>
@@ -506,9 +491,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">재무지표</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">증권사 리포트<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>투자전략</dt>
                                     <dd><a href="#" class="gnb-depth2-link">전체<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
@@ -560,9 +545,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">투자전략</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">기업/산업분석</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>기업/산업분석</dt>
                                     <dd><a href="#" class="gnb-depth2-link">전체<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
@@ -586,9 +571,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">해외선물옵션 거래안내</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">야간선물옵션 안내</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>해외증시</dt>
                                     <dd><a href="#" class="gnb-depth2-link">세계증시</a></dd>
@@ -612,9 +597,9 @@
                                     <dt>FN 지니아이</dt>
                                     <dd><a href="#" class="gnb-depth2-link">FN 지니아이</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>로보픽</dt>
                                     <dd>
@@ -651,16 +636,16 @@
                                     <dd><a href="#" class="gnb-depth2-link">상품 및 이용안내</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">투자자문사 소개</a></dd>
                                 </dl>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </li>
                 <li><a href="#" class="gnb-depth1-link menu5"><span class="hidden-text">뱅킹/대출/청약</span></a>
 
-                    <div class="gnb-depth2-wrap">
-                        <ul class="gnb-depth2">
-                            <li>
+                    <div class="gnb-depth2-container">
+                        <div class="gnb-depth2">
+                            <div class="wrap">
                                 <dl>
                                     <dt>이체</dt>
                                     <dd><a href="#" class="gnb-depth2-link">간편이체<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
@@ -714,9 +699,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">주식대여약정 신청/변경<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">주식대여약정 해지<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>대출</dt>
                                     <dd><a href="#" class="gnb-depth2-link">신용공여 안내</a></dd>
@@ -743,9 +728,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">만기연장<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">제휴대출</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>청약</dt>
                                     <dd><a href="#" class="gnb-depth2-link">제휴대출</a></dd>
@@ -797,9 +782,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">수요예측</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">기관청약</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>지로/공과금 납부</dt>
                                     <dd><a href="#" class="gnb-depth2-link">지로요금</a></dd>
@@ -808,9 +793,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">통합징수보험료</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">자동이체</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>체크카드</dt>
                                     <dd><a href="#" class="gnb-depth2-link">카드상품안내</a></dd>
@@ -829,16 +814,16 @@
                                     <dd><a href="#" class="gnb-depth2-link">분실/재발급/해지<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">이용안내</a></dd>
                                 </dl>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </li>
                 <li><a href="#" class="gnb-depth1-link menu6"><span class="hidden-text">서비스 신청/변경</span></a>
 
-                    <div class="gnb-depth2-wrap">
-                        <ul class="gnb-depth2">
-                            <li>
+                    <div class="gnb-depth2-container">
+                        <div class="gnb-depth2">
+                            <div class="wrap">
                                 <dl>
                                     <dt>계좌개설/ID</dt>
                                     <dd><a href="#" class="gnb-depth2-link">온라인 계좌개설</a></dd>
@@ -859,9 +844,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">ELW매매거래신청/해지<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">매매가능 유가증권 설정<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>고객정보관리</dt>
                                     <dd><a href="#" class="gnb-depth2-link">ID 비밀번호 재등록/변경</a></dd>
@@ -904,9 +889,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">반송해지<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">전자문서 조회<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>서비스신청/관리</dt>
                                     <dd>
@@ -949,9 +934,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">금융주소 한번에 서비스 신청</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">해외거래약정 신청/해지<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>실전투자대회</dt>
                                     <dd><a href="#" class="gnb-depth2-link">대회개요</a></dd>
@@ -965,9 +950,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">1:1 문의<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">명예의전당</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>모의투자</dt>
                                     <dd><a href="#" class="gnb-depth2-link">상시모의투자<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
@@ -977,23 +962,23 @@
                                     <dd><a href="#" class="gnb-depth2-link">공지사항</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">Q&amp;A<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </li>
                 <li><a href="daewoo-info.html" class="gnb-depth1-link menu7"><span class="hidden-text">이용안내/문의</span></a>
 
-                    <div class="gnb-depth2-wrap">
-                        <ul class="gnb-depth2">
-                            <li>
+                    <div class="gnb-depth2-container">
+                        <div class="gnb-depth2">
+                            <div class="wrap">
                                 <dl>
                                     <dt>공지/이벤트</dt>
                                     <dd><a href="daewoo-notice-1.html" class="gnb-depth2-link">공지사항</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">신용종목 공지사항</a></dd>
                                     <dd>
                                         <a href="#" class="gnb-depth2-link">해외주식/파생 공지사항</a>
-                          g              <span class="more"><span class="hidden-text">depth3 메뉴</span></span>
+                                        <span class="more"><span class="hidden-text">depth3 메뉴</span></span>
                                         <ul class="gnb-depth3">
                                             <li><a href="#" class="gnb-depth3-link">해외주식 공지사항</a></li>
                                             <li><a href="#" class="gnb-depth3-link">해외주식 권리 및 매매정지</a></li>
@@ -1012,9 +997,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">전화상담</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">MY 예약상담 내역<span class="login-need"><span class="hidden-text">로그인이 필요합니다.</span></span></a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>고객지원/ARS</dt>
                                     <dd><a href="#" class="gnb-depth2-link">고객센터/ARS</a></dd>
@@ -1023,12 +1008,10 @@
                                     <dd><a href="#" class="gnb-depth2-link">원격지원</a></dd>
                                 </dl>
 
-                                <dl class="mt41">
-                                    <dt><a href="#">영업점 위치 및 업무시간 안내</a></dt>
-                                </dl>
-                            </li>
+                                <a href="#" class="title-link mt41">영업점 위치 및 업무시간 안내</a>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>금융소비자포털</dt>
                                     <dd><a href="#" class="gnb-depth2-link">금융소비자 보호 소개</a></dd>
@@ -1041,12 +1024,10 @@
                                     <dd><a href="#" class="gnb-depth2-link">금융관련판례/모범규준</a></dd>
                                 </dl>
 
-                                <dl class="mt41">
-                                    <dt><a href="#">PC보안프로그램</a></dt>
-                                </dl>
-                            </li>
+                                <a href="#" class="title-link mt41">PC보안프로그램</a>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>이용안내 가이드</dt>
                                     <dd><a href="#" class="gnb-depth2-link">자주찾는 화면 안내</a></dd>
@@ -1064,9 +1045,9 @@
                                     <dd><a href="#" class="gnb-depth2-link">가족합산등급</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">등급별 우대혜택</a></dd>
                                 </dl>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class="wrap">
                                 <dl>
                                     <dt>VIP 서비스</dt>
                                     <dd><a href="#" class="gnb-depth2-link">오블리제 클럽이란?</a></dd>
@@ -1080,9 +1061,8 @@
                                     <dd><a href="#" class="gnb-depth2-link">FAQ(자주하는질문)</a></dd>
                                     <dd><a href="#" class="gnb-depth2-link">주요업무 변경사항</a></dd>
                                 </dl>
-                            </li>
-
-                        </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </li>
@@ -1094,15 +1074,15 @@
 
 <!-- 서브 콘텐츠-->
 <section class="section-container section-notice">
-    <div class="main-contents">
+    <div class="main-contents" id="contents-main">
         <h2 class="hidden-text">공지/이벤트</h2>
         <nav class="snb snb-notice">
             <h3 class="hidden-text">서브 메뉴</h3>
-            <dl>
-                <dt><span class="hidden-text">공지/이벤트</span></dt>
-                <dd class="depth1"><a href="#" class="depth1-link">공지사항<span class="more"></span></a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">신용종목 공지사항<span class="more"></span></a></dd>
-                <dd class="depth1">
+            <div class="title"><span class="hidden-text">공지/이벤트</span></div>
+            <ul>
+                <li class="depth1"><a href="#" class="depth1-link">공지사항<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">신용종목 공지사항<span class="more"></span></a></li>
+                <li class="depth1">
                     <a href="#" class="depth1-link">해외주식/파생 공지사항<span class="snb-more"><span class="hidden-text">depth2 메뉴</span></span></a>
                     <ul class="depth2">
                         <li><a href="#">해외주식 공지사항</a></li>
@@ -1110,11 +1090,11 @@
                         <li><a href="#">해외주식 휴장일</a></li>
                         <li><a href="#">해외주식 공지사항</a></li>
                     </ul>
-                </dd>
-                <dd class="depth1"><a href="#" class="depth1-link">진행중인 이벤트<span class="more"></span></a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">지난 이벤트<span class="more"></span></a></dd>
-                <dd class="depth1"><a href="#" class="depth1-link">당첨자 발표<span class="more"></span></a></dd>
-            </dl>
+                </li>
+                <li class="depth1"><a href="#" class="depth1-link">진행중인 이벤트<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">지난 이벤트<span class="more"></span></a></li>
+                <li class="depth1"><a href="#" class="depth1-link">당첨자 발표<span class="more"></span></a></li>
+            </ul>
         </nav>
 
         <section class="sub-contents">
@@ -1138,20 +1118,22 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2" class="info">
-                                <select name="" id="" class="date-select select-search">
+                            <td class="info">
+                                <select name="type" id="select-type" class="date-select select-search">
                                     <option value="제목">제목</option>
                                     <option value="제목">본문</option>
                                     <option value="제목">제목+본문</option>
                                 </select>
-                                <input type="text" class="search-text">
+                                <label for="select-type" class="hidden-text">검색분류</label>
+                                <input type="text" id="search-text" class="search-text">
+                                <label for="search-text" class="hidden-text">검색창</label>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" rowspan="2" class="title">검색기간</th>
+                            <th scope="row" class="title">검색기간</th>
                             <td class="info">
                                 <div class="date-wrap">
-                                    <select name="" id="" class="date-select date-year">
+                                    <select name="year-start-type" id="year-start" class="date-select date-year">
                                         <option value="2000">2000</option>
                                         <option value="2001">2001</option>
                                         <option value="2002">2002</option>
@@ -1173,7 +1155,8 @@
                                         <option value="2018">2018</option>
                                         <option value="2019">2019</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-month">
+                                    <label for="year-start" class="hidden-text">시작 년도 선택</label>
+                                    <select name="month-start-type" id="month-start" class="date-select date-month">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -1187,7 +1170,8 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-day">
+                                    <label for="month-start" class="hidden-text">시작 월 선택</label>
+                                    <select name="day-start-type" id="day-start" class="date-select date-day">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -1201,12 +1185,13 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
+                                    <label for="day-start" class="hidden-text">시작 일 선택</label>
                                     <a href="#" class="calendar-link"><img src="../images/sub_notice/bt_calendar.gif" alt="달력"></a>
                                     <div class="datepicker"></div>
                                 </div>
-                                <span class="icon">&nbsp;~</span>
+                                <span class="icon"> ~</span>
                                 <div class="date-wrap">
-                                    <select name="" id="" class="date-select date-year">
+                                    <select name="year-end-type" id="year-end" class="date-select date-year">
                                         <option value="2000">2000</option>
                                         <option value="2001">2001</option>
                                         <option value="2002">2002</option>
@@ -1228,7 +1213,8 @@
                                         <option value="2018">2018</option>
                                         <option value="2019">2019</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-month">
+                                    <label for="year-end" class="hidden-text">끝나는 년도 선택</label>
+                                    <select name="month-end-type" id="month-end" class="date-select date-month">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -1242,7 +1228,8 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
-                                    <select name="" id="" class="date-select date-day">
+                                    <label for="month-end" class="hidden-text">끝나는 월 선택</label>
+                                    <select name="day-end-type" id="day-end" class="date-select date-day">
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -1256,6 +1243,7 @@
                                         <option value="11">11</option>
                                         <option value="12">12</option>
                                     </select>
+                                    <label for="day-end" class="hidden-text">끝나는 일 선택</label>
                                     <a href="#" class="calendar-link"><img src="../images/sub_notice/bt_calendar.gif" alt="달력"></a>
                                     <div class="datepicker datepicker2"></div>
                                 </div>
@@ -1276,11 +1264,11 @@
             </div>
 
             <div class="notice-contents">
-                <div class="notice-table-total">
-                    전체건수 :<span class="total-number">314</span>건
+                <div class="total">
+                    전체건수 :<span class="number">314</span>건
                 </div>
-                <table class="notice-table" summary="공지사항 게시판에 대한 표 이고 작성일, 제목, 첨부파일로 구분 되어 있습니다.">
-                    <caption class="hidden-text">공지사항 게시판</caption>
+                <table class="table">
+                    <caption class="hidden-text">공지사항 게시판에 대한 표 이고 작성일, 제목, 첨부파일로 구분 되어 있습니다.</caption>
                     <colgroup>
                         <col style="width:110px">
                         <col style="width:540px">
@@ -1295,81 +1283,82 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td class="notice-table-date">2019-04-09</td>
-                        <td class="notice-heading"><a href="daewoo-notice-detail.html" class="notice-heading-point">KRX 장 운영 시간 변경에 따른 주문시간 및 반대매매처리 관련 변경 안내(19.4.29)</a></td>
+                        <td class="date">2019-04-09</td>
+                        <td class="heading"><a href="daewoo-notice-detail.html" class="point">KRX 장 운영 시간 변경에 따른 주문시간 및 반대매매처리 관련 변경 안내(19.4.29)</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2018-10-05</td>
-                        <td class="notice-heading"><a href="#" class="notice-heading-point">주식 통합증거금 개선 시행 안내</a></td>
+                        <td class="date">2018-10-05</td>
+                        <td class="heading"><a href="#" class="point">주식 통합증거금 개선 시행 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2018-10-14</td>
-                        <td class="notice-heading"><a href="#" class="notice-heading-point">미수/미납 변제 우선순위 변경안내</a></td>
+                        <td class="date">2018-10-14</td>
+                        <td class="heading"><a href="#" class="point">미수/미납 변제 우선순위 변경안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-05-02</td>
-                        <td class="notice-heading">
+                        <td class="date">2019-05-02</td>
+                        <td class="heading">
                             <a href="#">[모바일] m.Stock 주식주문 화면 변경 안내</a>
-                            <span class="notice-table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
+                            <span class="table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-05-02</td>
-                        <td class="notice-heading">
+                        <td class="date">2019-05-02</td>
+                        <td class="heading">
                             <a href="#">KDB산업은행 신규 전산시스템 도입(5/4)에 따른 금융거래 일시 중단 안내</a>
-                            <span class="notice-table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
+                            <span class="table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-05-02</td>
-                        <td class="notice-heading">
+                        <td class="date">2019-05-02</td>
+                        <td class="heading">
                             <a href="#">2019년 5월 장내파생상품시장 증거금률 정기조정 안내</a>
-                            <span class="notice-table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
+                            <span class="table-new"><img src="../images/sub_notice/ic_new.gif" alt="new"></span>
                         </td>
-                        <td class="notice-table-attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
+                        <td class="attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-30</td>
-                        <td class="notice-heading"><a href="#">입출금 이체 및 대체 약관 개정 안내</a></td>
-                        <td class="notice-table-attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
+                        <td class="date">2019-04-30</td>
+                        <td class="heading"><a href="#">입출금 이체 및 대체 약관 개정 안내</a></td>
+                        <td class="attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-30</td>
-                        <td class="notice-heading"><a href="#">근로자의 날 휴장 안내 (5/1)</a></td>
+                        <td class="date">2019-04-30</td>
+                        <td class="heading"><a href="#">근로자의 날 휴장 안내 (5/1)</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-29</td>
-                        <td class="notice-heading"><a href="#">[해외주식] 2019년 5월 휴장공지 안내</a></td>
+                        <td class="date">2019-04-29</td>
+                        <td class="heading"><a href="#">[해외주식] 2019년 5월 휴장공지 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-26</td>
-                        <td class="notice-heading"><a href="#">미래에셋대우 점포 통합 운영 안내 (5月)</a></td>
+                        <td class="date">2019-04-26</td>
+                        <td class="heading"><a href="#">미래에셋대우 점포 통합 운영 안내 (5月)</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-25</td>
-                        <td class="notice-heading"><a href="#">한국모바일인증(4/26) 작업 안내</a></td>
+                        <td class="date">2019-04-25</td>
+                        <td class="heading"><a href="#">한국모바일인증(4/26) 작업 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-25</td>
-                        <td class="notice-heading"><a href="#">미래에셋 S&P500 VIX S/T 선물 ETN(종목번호 : 520025) 만기상환 및 상장폐지예정 안내</a></td>
+                        <td class="date">2019-04-25</td>
+                        <td class="heading"><a href="#">미래에셋 S&P500 VIX S/T 선물 ETN(종목번호 : 520025) 만기상환 및 상장폐지예정 안내</a></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="notice-table-date">2019-04-24</td>
-                        <td class="notice-heading"><a href="#">미래에셋대우 제51기 임시주총 의결권대리행사 권유 안내</a></td>
-                        <td class="notice-table-attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
+                        <td class="date">2019-04-24</td>
+                        <td class="heading"><a href="#">미래에셋대우 제51기 임시주총 의결권대리행사 권유 안내</a></td>
+                        <td class="attachment"><a href="#" target="_blank" title="새 창 열림"><img src="../images/sub_notice/ic_file.gif" alt="첨부"></a></td>
                     </tr>
                     </tbody>
                 </table>
-                <div class="notice-paging">
+                <div class="paging">
                     <span>
                         <a href="#"><img src="../images/sub_notice/bbs_pre_end.gif" alt="첫 페이지"></a>
                         <a href="#"><img src="../images/sub_notice/bbs_pre.gif" alt="이전 페이지"></a>
@@ -1514,11 +1503,12 @@
                     <li><a href="#" target="_blank" title="새 창 열림" class="footer-nav-link">금융소비자포털</a></li>
                 </ul>
             </div>
-            <div class="img-mark"><a href="#" target="_blank" title="새 창 열림"><img src="../images/main/ico_footer_mark1.gif" alt="웹 접근성 품질 인증 기관 마크"></a></div>
+            <div class="img-mark"><a href="#" target="_blank" title="새 창 열림"><img src="../images/main/ico_footer_mark1.gif" alt="웹 접근성 품질 인증"></a></div>
             <span class="copy">COPYRIGHT 2017(C) MIRAE ASSET DAEWOO.CO., LTD. ALL RIGHTS RESERVED.</span>
         </div>
     </div>
 </footer>
+
+
 </body>
 </html>
-
