@@ -200,6 +200,11 @@
                     top:28px;
                     left:34px;
                     cursor:pointer;
+                    display:none;
+
+                    &.on{
+                        display:block;
+                    }
                 }
             }
 

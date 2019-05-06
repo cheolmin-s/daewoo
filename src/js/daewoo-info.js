@@ -22,11 +22,15 @@ $(function(){
     var $label = $('.search-box-txt');
 
 
-    $inputTxtBox.focus(function(){
-        $label.hide();
+    $label.addClass('on');
+
+    $inputTxtBox.on('focus',function(){
+        $label.removeClass('on');
     });
 
-    $inputTxtBox.focusout(function(){
-        $label.show();
+    $inputTxtBox.on('focusout',function(){
+        $label.addClass('on');
     });
+
+
 });
