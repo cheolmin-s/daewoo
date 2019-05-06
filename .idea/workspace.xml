@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8373e9-bb9b-40e9-8235-709d818a22c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/daewoo-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/daewoo-isa-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-isa-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/daewoo-notice-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-notice-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/daewoo-notice-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/daewoo-notice-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/daewoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/gnb.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gnb.js" afterDir="false" />
     </list>
@@ -23,65 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/daewoo-notice-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/daewoo-notice-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/daewoo-isa-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="908" column="221" selection-start-line="908" selection-start-column="221" selection-end-line="908" selection-end-column="221" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/gnb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="93" column="36" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="36" />
+            <state relative-caret-position="265">
+              <caret line="116" column="12" lean-forward="true" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/gnb.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -89,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/daewoo-info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="190">
+              <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -106,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>id=&quot;&quot;</find>
       <find>시간 및</find>
       <find>daewoo.html</find>
       <find>src=</find>
@@ -136,6 +84,7 @@
       <find>side</find>
       <find>info</find>
       <find>label</find>
+      <find>dist/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/html/daewoo.html" />
         <option value="$PROJECT_DIR$/src/html/daewoo-info.html" />
         <option value="$PROJECT_DIR$/src/scss/_daewoo-info.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/html/_include/_header.html" />
         <option value="$PROJECT_DIR$/src/html/_include/_header-sub.html" />
         <option value="$PROJECT_DIR$/src/html/main.html" />
@@ -179,6 +127,7 @@
         <option value="$PROJECT_DIR$/html/daewoo-isa-1.html" />
         <option value="$PROJECT_DIR$/html/daewoo-info.html" />
         <option value="$PROJECT_DIR$/js/gnb.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -200,21 +149,6 @@
             <path>
               <item name="daewoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="daewoo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daewoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daewoo" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daewoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daewoo" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daewoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daewoo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,13 +277,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67571000" />
+    <option name="totallyTimeSpent" value="67739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.453958" visible="true" weight="0.19652265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45234248" visible="true" weight="0.19652265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.546042" side_tool="true" weight="0.19652265" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -416,41 +350,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/daewoo.html" />
-    <entry file="file://$PROJECT_DIR$/src/html/_include/_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/daewoo-isa-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/daewoo-notice-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/_include/_footer.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/daewoo-isa-1.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/daewoo-notice-detail.html" />
     <entry file="file://$PROJECT_DIR$/dist/html/daewoo-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="209">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/daewoo-notice-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/daewoo-notice-1.html" />
     <entry file="file://$PROJECT_DIR$/dist/html/daewoo-notice-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -458,25 +368,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo-info.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5263">
-          <caret line="421" lean-forward="true" selection-start-line="421" selection-end-line="421" />
-          <folding>
-            <element signature="e#337#447#0" />
-            <element signature="e#467#4453#0" />
-            <element signature="e#14311#14429#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo-info.scss" />
+    <entry file="file://$PROJECT_DIR$/src/html/main.html" />
     <entry file="file://$PROJECT_DIR$/dist/html/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -484,25 +377,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_commons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="509" column="18" lean-forward="true" selection-start-line="509" selection-start-column="18" selection-end-line="509" selection-end-column="18" />
-          <folding>
-            <element signature="e#99#226#0" />
-            <element signature="e#242#11918#0" />
-            <element signature="e#396#3916#0" />
-            <element signature="e#11930#12053#0" />
-            <element signature="e#12068#12105#0" />
-            <element signature="e#12117#12136#0" />
-            <element signature="e#12148#12168#0" />
-            <element signature="e#13826#13953#0" />
-            <element signature="e#13966#14154#0" />
-            <element signature="e#14167#15845#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_commons.scss" />
     <entry file="file://$PROJECT_DIR$/dist/html/daewoo-isa-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -510,124 +385,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo-isa-1.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/daewoo-info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo-notice-1.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#11#93#0" />
-            <element signature="e#234#320#0" />
-            <element signature="e#1066#7315#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="211" column="39" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
-          <folding>
-            <element signature="e#9#347#0" />
-            <element signature="e#362#1212#0" />
-            <element signature="e#14495#15046#0" />
-            <element signature="e#15156#15612#0" />
-            <element signature="e#15632#18640#0" />
-            <element signature="e#18662#20163#0" />
-            <element signature="e#21247#23175#0" />
-            <element signature="e#21633#22094#0" />
-            <element signature="e#22127#22267#0" />
-            <element signature="e#22554#23157#0" />
-            <element signature="e#29780#32307#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/daewoo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="126" column="38" lean-forward="true" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
-          <folding>
-            <element signature="e#27#135#0" />
-            <element signature="e#161#2222#0" />
-            <element signature="e#465#819#0" />
-            <element signature="e#864#952#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/daewoo-isa-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#408#721#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/daewoo-notice-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#385#905#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_include/_footer-notice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_include/_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/daewoo-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/_include/_header-sub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo-isa-1.scss" />
+    <entry file="file://$PROJECT_DIR$/src/js/daewoo-info.js" />
+    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo-notice-1.scss" />
+    <entry file="file://$PROJECT_DIR$/src/scss/_daewoo.scss" />
+    <entry file="file://$PROJECT_DIR$/src/js/daewoo.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/daewoo-isa-1.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/daewoo-notice-1.js" />
+    <entry file="file://$PROJECT_DIR$/src/html/_include/_footer-notice.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/_include/_header.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/daewoo-info.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/_include/_header-sub.html" />
     <entry file="file://$PROJECT_DIR$/dist/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="872" column="73" selection-start-line="872" selection-start-column="65" selection-end-line="872" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="93" column="36" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -652,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/daewoo-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -675,8 +440,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/gnb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/daewoo-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="116" column="12" lean-forward="true" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
         </state>
       </provider>
     </entry>

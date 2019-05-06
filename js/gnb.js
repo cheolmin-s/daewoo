@@ -21,17 +21,8 @@ $(function(){
     var $inputTxtBox = $('.info-search-box');
     var $label = $('.search-box-txt');
 
-    $inputTxtBox.on('keyup',function(){
-        $label.hide();
-    });
-
     $inputTxtBox.on('focusout',function(){
-
-        if($label.hasClass('.search-box-txt')){
-        } else{
-            $label.hide();
-
-        }
+        $label.show();
     });
 
     $inputTxtBox.on('click',function(){
