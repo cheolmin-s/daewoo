@@ -30,36 +30,14 @@ $(function(){
         $this.next($gnbDepth2).addClass('on');
     });
 
-    // $gnbMore.focus(function(){
-    //
-    //     var $this = $(this);
-    //     var moreIdx = $(this).index('.gnb-depth2 .more');
-    //     var depth2LinkThis = $(this).siblings('.gnb-depth2-link');
-    //
-    //     if($this.hasClass('on')){
-    //         $gnbMore.removeClass('on');
-    //         $depth3.removeClass('on');
-    //         $gnbDepth2Link.removeClass('on');
-    //     } else {
-    //         $gnbDepth2Link.removeClass('on');
-    //         $gnbMore.removeClass('on');
-    //         $depth3.removeClass('on');
-    //         $this.addClass('on');
-    //         depth2LinkThis.addClass('on');
-    //         $depth3.eq(moreIdx).addClass('on');
-    //     }
-    // });
+    $gnbDepth2Link.last().on('keydown',function(e){
 
-    $gnbDepth2Link.focus(function(){
-        $gnbDepth2Link.removeClass('on');
-        $gnbMore.removeClass('on');
-        $depth3.removeClass('on');
-    });
+        if(e.shiftKey && keyCode === 9){
 
-    $gnbDepth2Link.last().focusout(function(){
-
-        $gnbDepth1Link.removeClass('on');
-        $gnbDepth2.removeClass('on');
+        } else {
+            $gnbDepth1Link.removeClass('on');
+            $gnbDepth2.removeClass('on');
+        }
     });
 
     $gnbDepth1Link.on('mouseenter',function(){
@@ -122,26 +100,6 @@ $(function(){
     var $side7 = $('.side7');
 
 
-    // $sideDepth1.on('focus',function(e){
-    //
-    //     e.preventDefault();
-    //
-    //     var $this = $(this);
-    //
-    //     if($this.hasClass('on')){
-    //         $sideDepth2Bg.removeClass('on');
-    //         $sideDepth1.removeClass('on');
-    //         $sideDepth2.removeClass('on');
-    //     } else {
-    //         $sideDepth2.removeClass('on');
-    //         $this.next().addClass('on');
-    //         $sideDepth2Bg.addClass('on');
-    //         $sideDepth1.removeClass('on');
-    //         $this.addClass('on');
-    //     }
-    //
-    // });
-
     $sideDepth1.on('click',function(e){
 
         e.preventDefault();
@@ -163,14 +121,10 @@ $(function(){
     });
 
 
-    $sideCloseBtn.last().focusout(function(){
-
-        $sideDepth1.removeClass('on');
-    });
-
     $side7.focusout(function(){
         $sideDepth2.removeClass('on');
         $sideDepth2Bg.removeClass('on');
+        $sideDepth1.removeClass('on');
     });
 
     $sideCloseBtn.on('click',function(e){
@@ -275,3 +229,26 @@ $(function(){
     });
 
 });
+
+// 스크롤시 active //
+
+$(function(){
+
+    var $window = $(window);
+
+    $window.scroll(function(){
+
+        var $active = $('.scroll-active');
+
+        var a = $window.scrollTop() + $window.height() - 20;
+
+        $active.each(function(){
+
+            var b = $(this).offset().top;a >= b?
+
+                $(this).addClass("on") : $(this).removeClass("on");
+        });
+    });
+
+});
+

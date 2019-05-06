@@ -2,7 +2,7 @@
 
 $(function(){
 
-    var $snbDepth1Link = $('.depth1-link');
+    var $snbDepth1Link = $('.snb-isa .depth1-link');
     var $snbDepth2Link = $('.snb-isa .depth2 a');
     var $snbDepth2 = $('.snb-isa .depth2');
     var $snbMore = $('.snb-isa .snb-more');
@@ -12,34 +12,26 @@ $(function(){
     $snbDepth2Link.eq(0).addClass('on');
     $snbDepth1Link.eq(0).addClass('on');
 
+
     $snbDepth1Link.on('click',function(e){
-        e.stopPropagation();
-
-        var $this = $(this);
-        $snbMore.removeClass('on');
-        $snbDepth2.removeClass('on');
-        $snbDepth1Link.removeClass('on');
-        $this.siblings($snbDepth2).addClass('on');
-        $this.children($snbMore).addClass('on');
-        $this.addClass('on');
-
-    });
-
-    $snbDepth1Link.focus(function(e){
-
-        e.stopPropagation();
+        e.preventDefault();
 
         var $this = $(this);
 
-        $snbDepth1Link.removeClass('on');
-        $snbMore.removeClass('on');
-        $snbDepth2.removeClass('on');
-        $this.addClass('on');
-        $this.siblings($snbDepth2).addClass('on');
-        $this.children($snbMore).addClass('on');
-    });
-    $snbDepth1Link.last().focus(function(){
-        $snbDepth1Link.removeClass('on');
+        if($this.hasClass('on')){
+            $snbDepth1Link.removeClass('on');
+            $snbDepth2.removeClass('on');
+            $snbMore.removeClass('on');
+        } else {
+            $snbMore.removeClass('on');
+            $this.children('.snb-more').addClass('on');
+            $snbDepth2.removeClass('on');
+            $this.siblings().addClass('on');
+            $snbDepth1Link.removeClass('on');
+            $this.addClass('on');
+
+        }
+
     });
 
 });
