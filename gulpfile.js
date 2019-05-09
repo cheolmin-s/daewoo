@@ -11,6 +11,7 @@ var watch = require('gulp-watch');
 var sourcemaps = require('gulp-sourcemaps');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
+var ghPages = require('gulp-gh-pages');
 
 /*
  gulp.task( task이름, 함수/익명함수 );
@@ -58,16 +59,21 @@ gulp.task('sass', function(){
 });
 
 // concat 실행 - 여러 개의 파일을 하나의 파일로 합치는 기능
-gulp.task('gnb', function() {
+gulp.task('concat', function() {
   return gulp.src('src/js/*.js')
       .pipe(sourcemaps.init())
-      .pipe(concat('gnb.js'))
+      .pipe(concat('commons.js'))
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('dist/'));
 });
 
+gulp.task('deploy', function() {
+    return gulp.src('./dist/**')
+        .pipe(ghPages());
+});
 
 
-gulp.task('jsconcat', ['gnb']);
 
-gulp.task('default', ['livereload', 'include','sass','jsconcat', 'watch']);
+gulp.task('jsconcat', ['concat']);
+
+gulp.task('default', ['livereload', 'include','sass','deploy','jsconcat', 'watch']);

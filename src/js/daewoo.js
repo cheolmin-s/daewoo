@@ -93,7 +93,7 @@ $(function(){
 // 사이드 메뉴 //
 $(function(){
 
-    var $sideDepth1 = $('.side-menu-wrap-depth1 > li');
+    var $sideDepth1 = $('.side-menu-wrap-depth1 > li > a');
     var $sideDepth2 = $('.side-menu-wrap-depth2');
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
@@ -241,7 +241,7 @@ $(function(){
 
         var $active = $('.scroll-active');
 
-        var a = $window.scrollTop() + $window.height() - 20;
+        var a = $window.scrollTop() + $window.height() - 80;
 
         $active.each(function(){
 

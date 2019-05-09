@@ -21,15 +21,12 @@ $(function(){
     var $inputTxtBox = $('.info-search-box');
     var $label = $('.search-box-txt');
 
-
-    $label.addClass('on');
-
     $inputTxtBox.on('focus',function(){
-        $label.removeClass('on');
+        $label.addClass('on');
     });
 
     $inputTxtBox.on('focusout',function(){
-        $label.addClass('on');
+        $label.removeClass('on');
     });
 
 

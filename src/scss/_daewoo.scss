@@ -642,7 +642,6 @@
         float:left;
     }
 
-
     &-link{
         display:inline-block;
         width:100%;
@@ -782,8 +781,29 @@
             &:nth-child(4){
                 margin-right:0;
             }
+
+            &:nth-child(6){
+                transition-delay:.3s;
+            }
+
+            &:nth-child(7){
+                transition-delay:.6s;
+            }
+
             &:nth-child(8){
-                margin-right:0;
+                transition-delay:.9s;
+            }
+
+            &:nth-child(10){
+                transition-delay:.3s;
+            }
+
+            &:nth-child(11){
+                transition-delay:.6s;
+            }
+
+            &:nth-child(12){
+                transition-delay:.9s;
             }
 
             & > a{
@@ -890,7 +910,7 @@
                     clear:both;
                 }
 
-                & p{
+                & span{
                     color:#aaa;
                     font-size:11px;
                     font-weight:300;
@@ -971,7 +991,7 @@
         &-caution{
             margin-top:15px;
 
-            & p{
+            & span{
                 color:#aaa;
                 font-size:11px;
                 font-weight:300;
@@ -1104,7 +1124,7 @@
 .notice{
     padding:55px 0;
 
-    &-inner{
+    .inner{
         width:980px;
         margin:0 auto;
 
@@ -1114,7 +1134,7 @@
             clear:both;
         }
     }
-    .notice-wrap{
+    .wrap{
         float:left;
         position:relative;
 
@@ -1133,7 +1153,7 @@
         }
 
 
-        &-list{
+        & ul {
             width:530px;
             float:left;
             margin-left:20px;
@@ -1161,7 +1181,7 @@
                 }
             }
 
-            &-link{
+            & a{
                 display:inline-block;
                 font-size:14px;
                 line-height:20px;
@@ -1175,7 +1195,7 @@
             }
         }
 
-        &-more{
+        .more{
             position:absolute;
             top:42px;
             left:0;
@@ -1200,8 +1220,6 @@
         }
 
     }
-
-
     .guide{
         margin-left:50px;
         float:left;

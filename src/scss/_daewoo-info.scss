@@ -184,10 +184,10 @@
                 top:28px;
                 left:34px;
                 cursor:pointer;
-                display:none;
+                opacity:1;
 
                 &.on{
-                    display:block;
+                    opacity:0;
                 }
             }
         }
@@ -636,8 +636,25 @@
         padding:50px 0;
         background:#fff;
 
-        .title{
+        .title-wrap{
+            width:238px;
             float:left;
+
+            & h3{
+                font-size:22px;
+                font-weight:600;
+                color:#222;
+                font-family:"Noto Sans KR",sans-serif;
+            }
+
+            & span{
+                font-size:12px;
+                display:inline-block;
+                color:#888;
+                letter-spacing:-0.44px;
+                padding-top:11px;
+            }
+
         }
 
         &-menu{
