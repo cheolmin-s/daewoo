@@ -70,8 +70,8 @@ gulp.task('concat', function() {
 gulp.task('deploy', function() {
     return gulp.src('dist/**')
         .pipe(ghPages({
-            remoteUrl:'https://cheolmin-s.github.io/daewoo/',
-            cacheDir: '.gh-pages',
+            remoteUrl:'git://cheolmin-s.github.io/daewoo.git',
+            cacheDir: 'gh-pages',
             branch:'master'
         }));
 });
@@ -80,4 +80,4 @@ gulp.task('deploy', function() {
 
 gulp.task('jsconcat', ['concat']);
 
-gulp.task('default', ['livereload', 'include','sass','deploy','jsconcat', 'watch']);
+gulp.task('default', ['livereload', 'include','sass','jsconcat','watch']);
