@@ -93,7 +93,7 @@ $(function(){
 // 사이드 메뉴 //
 $(function(){
 
-    var $sideDepth1 = $('.side-menu-wrap-depth1 > li > a');
+    var $sideDepth1 = $('.side-menu-wrap-depth1 > li');
     var $sideDepth2 = $('.side-menu-wrap-depth2');
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
@@ -112,9 +112,10 @@ $(function(){
             $sideDepth2.removeClass('on');
         } else {
             $sideDepth2.removeClass('on');
-            $this.next().addClass('on');
+            $this.children('.side-menu-wrap-depth2').addClass('on');
             $sideDepth2Bg.addClass('on');
             $sideDepth1.removeClass('on');
+            $this.siblings('.side-menu-wrap-depth2').addClass('on');
             $this.addClass('on');
         }
 

@@ -6,7 +6,7 @@ $(function(){
     var $snbDepth2Link = $('.snb-notice .depth2 a');
     var $snbDepth2 = $('.snb-notice .depth2');
     var $snbMore = $('.snb-notice .snb-more');
-    var $more = $('.snb-notice .more');
+    var $more = $('.snb-notice .more-right');
 
     $snbDepth1Link.eq(0).addClass('on');
     $snbDepth2Link.eq(0).addClass('on');

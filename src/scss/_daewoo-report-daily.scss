@@ -1,0 +1,105 @@
+.section-report{
+    width:1000px;
+    margin:0 auto;
+    min-width:1000px;
+
+    .main-contents{
+        padding-top:37px;
+        &:after{
+            display:block;
+            content:"";
+            clear:both;
+        }
+
+    }
+
+    .select-box-wrap{
+        margin-top:30px;
+
+        .icon{
+            padding:9px 4px 0 10px;
+        }
+    }
+
+    .board-contents{
+        padding-top:41px;
+        margin-bottom:85px;
+
+        .number{
+            margin-right:1px;
+        }
+
+        .table-new{
+            position:relative;
+            top:2px;
+        }
+
+        & tr{
+
+            & td{
+                &:last-child{
+                    padding:14px 10px;
+                    text-align:center;
+                }
+            }
+        }
+    }
+
+    .box-notice{
+        float:left;
+        border:0;
+        padding:0;
+        margin:0 0 51px 0;
+
+        &-heading{
+            padding-left:17px;
+            margin-bottom:15px;
+        }
+
+        & li{
+            background:0;
+            font-size:11px;
+            padding-left:15px;
+            line-height:1.6;
+            margin-bottom:7px;
+        }
+
+        & a{
+            font-size:0;
+            margin-left:8px;
+            display:inline-block;
+            vertical-align:bottom;
+        }
+    }
+}
+
+.snb-report{
+    .title{
+        background:url("../images/sub_report/lnb_title_0000001086.gif")no-repeat;
+    }
+
+    .depth1-link{
+        line-height:16px;
+    }
+}
+
+.report-title{
+    width:218px;
+    height:34px;
+    background: url("../images/sub_report/bbs_title_0000001087.gif")no-repeat;
+}
+
+.report-banner{
+    float:left;
+    padding-top:28px;
+
+    & a{
+        display:block;
+        height:100%;
+    }
+
+    & img{
+        display:block;
+    }
+
+}

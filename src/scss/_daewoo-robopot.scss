@@ -1,0 +1,71 @@
+.section-robopot{
+    width:1000px;
+    margin:0 auto;
+    min-width:1000px;
+
+    .main-contents{
+        padding-top:37px;
+        &:after{
+            display:block;
+            content:"";
+            clear:both;
+        }
+
+    }
+}
+
+.snb-robopot{
+
+    .title{
+        background:url("../images/sub_robopot/lnb_title_0000001189.gif")no-repeat;
+    }
+
+}
+
+.robopot-title{
+    width:146px;
+    height:28px;
+    background:url("../images/sub_robopot/tit_h1_hkr1004n01.gif")no-repeat;
+}
+
+.robopot-wrap{
+    float:left;
+    margin-bottom:40px;
+
+    & img{
+        display:block;
+    }
+
+    .visual-img{
+        padding-top:30px;
+    }
+
+    .robopot-info{
+        margin-bottom:10px;
+
+        & dl{
+            margin-top:40px;
+        }
+
+        & dt{
+            color:#222;
+            font-size:17px;
+            font-weight:bold;
+            letter-spacing:-1px;
+            line-height:1.2;
+            margin-bottom:17px;
+        }
+
+        & p{
+            line-height:1.7;
+        }
+    }
+
+    .box-notice{
+        margin-top:40px;
+    }
+
+
+
+}
+
