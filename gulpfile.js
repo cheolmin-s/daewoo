@@ -80,4 +80,4 @@ gulp.task('deploy', function() {
 
 gulp.task('jsconcat', ['concat']);
 
-gulp.task('default', ['livereload', 'include','sass','jsconcat','watch']);
+gulp.task('default', ['livereload', 'include','sass','jsconcat','deploy','watch']);
