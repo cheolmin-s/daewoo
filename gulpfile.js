@@ -68,8 +68,12 @@ gulp.task('concat', function() {
 });
 
 gulp.task('deploy', function() {
-    return gulp.src('./dist/**')
-        .pipe(ghPages());
+    return gulp.src('dist/**')
+        .pipe(ghPages({
+            remoteUrl:'https://cheolmin-s.github.io/daewoo/',
+            cacheDir: '.gh-pages',
+            branch:'master'
+        }));
 });
 
 
