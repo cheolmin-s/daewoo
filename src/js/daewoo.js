@@ -98,6 +98,9 @@ $(function(){
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
     var $side7 = $('.side7');
+    var position = parseInt($(".side-menu").css("top"));
+    var $window = $(window);
+    var $sideMenu = $('.side-menu');
 
     $sideDepth1.on('click',function(e){
 
@@ -119,14 +122,11 @@ $(function(){
         }
 
     });
-
-
     $side7.focusout(function(){
         $sideDepth2.removeClass('on');
         $sideDepth2Bg.removeClass('on');
         $sideDepth1.removeClass('on');
     });
-
     $sideCloseBtn.on('click',function(e){
         e.stopPropagation();
 
@@ -135,11 +135,9 @@ $(function(){
         $sideDepth2Bg.removeClass('on');
     });
 
-    var position = parseInt($(".side-menu").css("top"));
-
-    $(window).scroll(function() {
-        var scrollTop = $(window).scrollTop();
-        $(".side-menu").stop().animate({"top":scrollTop+position+"px"},1000);
+    $window.scroll(function() {
+        var scrollTop = $window.scrollTop();
+        $sideMenu.stop().animate({"top":scrollTop+position+"px"},1000);
     });
 
 });
