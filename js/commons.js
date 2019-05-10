@@ -143,36 +143,6 @@ $(function() {
 } );
 
 
-
-// $(function(){
-//
-//     var $snbDepth1Link = $('.snb .depth1-link');
-//     var $more = $('.snb .more-right');
-//
-//     $snbDepth1Link.eq(0).addClass('on');
-//     $more.eq(0).addClass('on');
-//
-//     $snbDepth1Link.on('click',function(){
-//
-//         var $this = $(this);
-//
-//
-//         if($this.hasClass('on')){
-//             $snbDepth1Link.removeClass('on');
-//             $more.removeClass('on');
-//         } else {
-//             $more.removeClass('on');
-//             $snbDepth1Link.removeClass('on');
-//             $this.children().addClass('on');
-//             $this.addClass('on');
-//
-//         }
-//
-//     });
-//
-//
-// });
-
 // 헤더 상단 팝업 //
 $(function(){
 
@@ -273,6 +243,9 @@ $(function(){
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
     var $side7 = $('.side7');
+    var position = parseInt($(".side-menu").css("top"));
+    var $window = $(window);
+    var $sideMenu = $('.side-menu');
 
     $sideDepth1.on('click',function(e){
 
@@ -294,14 +267,11 @@ $(function(){
         }
 
     });
-
-
     $side7.focusout(function(){
         $sideDepth2.removeClass('on');
         $sideDepth2Bg.removeClass('on');
         $sideDepth1.removeClass('on');
     });
-
     $sideCloseBtn.on('click',function(e){
         e.stopPropagation();
 
@@ -310,14 +280,13 @@ $(function(){
         $sideDepth2Bg.removeClass('on');
     });
 
-    var position = parseInt($(".side-menu").css("top"));
-
-    $(window).scroll(function() {
-        var scrollTop = $(window).scrollTop();
-        $(".side-menu").stop().animate({"top":scrollTop+position+"px"},1000);
+    $window.scroll(function() {
+        var scrollTop = $window.scrollTop();
+        $sideMenu.stop().animate({"top":scrollTop+position+"px"},1000);
     });
 
 });
+
 
 // 메인 icon 메뉴//
 $(function(){
