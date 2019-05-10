@@ -31,13 +31,64 @@
 .robopot-wrap{
     float:left;
     margin-bottom:40px;
+    position:relative;
+
+    .title-wrap{
+        background:url("../images/sub_robopot/visual_hkr1002r10.png")no-repeat;
+        height:308px;
+        color:#202020;
+        font-family:"Noto Sans KR",sans-serif;
+        margin-top:30px;
+
+        & h4{
+            font-size:32px;
+            padding-top:10px;
+
+            & span{
+                color:#0059a6;
+            }
+        }
+
+        & p{
+            line-height:21px;
+            font-size:14px;
+            letter-spacing:0.2px;
+            padding-top:17px;
+            padding-left:4px;
+        }
+
+        .list-title{
+            display:inline-block;
+            padding-left:12px;
+            font-size:13px;
+            margin:25px 0 12px 0;
+            background:url("../images/sub_robopot/point.png")2px 3px no-repeat;
+        }
+
+        & li{
+            font-size:13px;
+            line-height:20px;
+            position:relative;
+            padding-left:13px;
+            letter-spacing:-0.8px;
+            color:#828282;
+
+            &:before{
+                display:block;
+                content:"";
+                position:absolute;
+                top:9px;
+                left:2px;
+                width:7px;
+                height:2px;
+                background:#aeaeae;
+            }
+
+        }
+    }
 
     & img{
         display:block;
-    }
-
-    .visual-img{
-        padding-top:30px;
     }
 
     .robopot-info{

@@ -2,39 +2,20 @@
 
 $(function(){
 
-    var $snbDepth1Link = $('.snb-notice .depth1-link');
-    var $snbDepth2Link = $('.snb-notice .depth2 a');
-    var $snbDepth2 = $('.snb-notice .depth2');
-    var $snbMore = $('.snb-notice .snb-more');
-    var $more = $('.snb-notice .more-right');
+    var $more = $('.snb .more-right');
+    var $snbDepth1Link = $('.snb .depth1-link');
 
-    $snbDepth1Link.eq(0).addClass('on');
-    $snbDepth2Link.eq(0).addClass('on');
-    $more.eq(0).addClass('on');
-
-    $snbDepth1Link.on('click',function(e){
-        e.preventDefault();
+    $snbDepth1Link.on('click',function(){
 
         var $this = $(this);
 
         if($this.hasClass('on')){
-            $snbDepth1Link.removeClass('on');
-            $snbMore.removeClass('on');
             $more.removeClass('on');
-            $snbDepth2.removeClass('on');
-
+            $this.children('.more-right').addClass('on');
         } else {
             $more.removeClass('on');
-            $snbDepth2.removeClass('on');
-            $snbDepth1Link.removeClass('on');
-            $this.siblings().addClass('on');
-            $this.children().addClass('on');
-            $this.addClass('on');
-
         }
-
     });
-
 
 });
 

@@ -2,16 +2,9 @@
 
 $(function(){
 
-    var $snbDepth1Link = $('.snb-isa .depth1-link');
-    var $snbDepth2Link = $('.snb-isa .depth2 a');
-    var $snbDepth2 = $('.snb-isa .depth2');
-    var $snbMore = $('.snb-isa .snb-more');
-
-    $snbDepth2.eq(0).addClass('on');
-    $snbMore.eq(0).addClass('on');
-    $snbDepth2Link.eq(0).addClass('on');
-    $snbDepth1Link.eq(0).addClass('on');
-
+    var $snbDepth1Link = $('.snb .depth1-link');
+    var $snbDepth2 = $('.snb .depth2');
+    var $snbMore = $('.snb .snb-more');
 
     $snbDepth1Link.on('click',function(e){
         e.preventDefault();
@@ -29,7 +22,6 @@ $(function(){
             $this.siblings().addClass('on');
             $snbDepth1Link.removeClass('on');
             $this.addClass('on');
-
         }
 
     });

@@ -93,12 +93,11 @@ $(function(){
 // 사이드 메뉴 //
 $(function(){
 
-    var $sideDepth1 = $('.side-menu-wrap-depth1 > li > a');
+    var $sideDepth1 = $('.side-menu-wrap-depth1 > li');
     var $sideDepth2 = $('.side-menu-wrap-depth2');
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
     var $side7 = $('.side7');
-
 
     $sideDepth1.on('click',function(e){
 
@@ -245,9 +244,14 @@ $(function(){
 
         $active.each(function(){
 
-            var b = $(this).offset().top;a >= b?
+            var $this = $(this);
+            var b = $(this).offset().top;
 
-                $(this).addClass("on") : $(this).removeClass("on");
+            if(a >= b){
+                $this.addClass('on');
+            }else{
+                $this.removeClass('on');
+            }
         });
     });
 

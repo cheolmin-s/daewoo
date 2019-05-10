@@ -486,9 +486,8 @@
 }
 
 .board-contents{
-    padding-top:29px;
+    padding:29px 0 48px 0;
     float:left;
-    margin-bottom:98px;
 
     .total{
         font-size:12px;
@@ -617,6 +616,7 @@
 .sub-contents{
     width:720px;
     float:right;
+    margin-bottom:50px;
 
     &:after{
         display:block;
@@ -779,7 +779,7 @@
     box-sizing:border-box;
     border:1px solid #dbdbdb;
     padding:40px;
-    margin:35px 0 50px 0;
+    margin-top:35px;
 
     &-heading{
         font-size:14px;
@@ -1078,7 +1078,7 @@
 .scroll-active{
     transform:translateY(20px);
     opacity:0;
-    transition:all 1.2s ease-out;
+    transition:all .8s ease-out;
 
     &.on{
         transform:translateY(0);

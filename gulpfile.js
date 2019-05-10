@@ -11,7 +11,6 @@ var watch = require('gulp-watch');
 var sourcemaps = require('gulp-sourcemaps');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
-var ghPages = require('gulp-gh-pages');
 
 /*
  gulp.task( task이름, 함수/익명함수 );
@@ -67,17 +66,7 @@ gulp.task('concat', function() {
       .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('deploy', function() {
-    return gulp.src('dist/**')
-        .pipe(ghPages({
-            remoteUrl:'git://cheolmin-s.github.io/daewoo.git',
-            cacheDir: 'gh-pages',
-            branch:'master'
-        }));
-});
-
-
 
 gulp.task('jsconcat', ['concat']);
 
-gulp.task('default', ['livereload', 'include','sass','jsconcat','deploy','watch']);
+gulp.task('default', ['livereload', 'include','sass','jsconcat','watch']);
