@@ -983,6 +983,11 @@
         appearance: none;
         -webkit-appearance: none;
         -moz-appearance: none;
+
+        &::-ms-expand{
+            display:none
+        }
+
     }
     .date-wrap{
         float:left;
@@ -1079,11 +1084,6 @@
     transform:translateY(20px);
     opacity:0;
     transition:all .8s ease-out;
-
-    &.on{
-        transform:translateY(0);
-        opacity:1;
-    }
 }
 
 .footer-main{
@@ -1359,7 +1359,7 @@
     }
 
     .footer-nav{
-        width:757px;
+        width:763px;
         float:left;
         margin:21px 0 0 37px;
 

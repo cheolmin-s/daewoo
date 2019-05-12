@@ -782,33 +782,41 @@
                 margin-right:0;
             }
 
-            &:nth-child(6){
-                transition-delay:.2s;
-            }
-
-            &:nth-child(7){
-                transition-delay:.4s;
-            }
-
-            &:nth-child(8){
-                transition-delay:.6s;
-            }
-
-            &:nth-child(10){
-                transition-delay:.2s;
-            }
-
-            &:nth-child(11){
-                transition-delay:.4s;
-            }
-
-            &:nth-child(12){
-                transition-delay:.6s;
-            }
-
             & > a{
                 display:inline-block;
                 height:100%;
+            }
+        }
+
+        .slide1{
+
+            &.on{
+                transform:translateY(0);
+                opacity:1;
+            }
+        }
+        .slide2{
+
+            &.on{
+                transform:translateY(0);
+                transition-delay:.2s;
+                opacity:1;
+            }
+        }
+        .slide3{
+
+            &.on{
+                transform:translateY(0);
+                transition-delay:.4s;
+                opacity:1;
+            }
+        }
+        .slide4{
+            transition-delay:.6s;
+            &.on{
+                transform:translateY(0);
+                transition-delay:.6s;
+                opacity:1;
             }
         }
     }
@@ -822,6 +830,10 @@
     &-inner{
         width:980px;
         margin:0 auto;
+        &.on{
+            transform:translateY(0);
+            opacity:1;
+        }
 
         &:after{
             display:block;
@@ -1045,7 +1057,6 @@
                     background-position:-58px -64px;
                 }
             }
-
             .bx-next{
                 width:54px;
                 height:54px;
@@ -1059,21 +1070,6 @@
                     background-position:-112px -64px;
                 }
 
-            }
-
-            &-auto{
-                width:54px;
-                height:54px;
-                position:relative;
-                float:right;
-                bottom:0;
-
-                &-item{
-                    position:absolute;
-                    top:0;
-                    left:0;
-
-                }
             }
 
             .bx-start{
@@ -1118,6 +1114,23 @@
 
 
         }
+        .bx-has-controls-auto.bx-has-pager{
+            .bx-controls-auto{
+                width:54px;
+                height:54px;
+                position:relative;
+                float:right;
+                bottom:0;
+
+                &-item{
+                    position:absolute;
+                    top:0;
+                    left:0;
+
+                }
+            }
+        }
+
     }
 }
 

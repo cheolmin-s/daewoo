@@ -177,6 +177,7 @@ $(function(){
         maxSlides:4,
         slideWidth:300,
         slideMargin:20,
+
     });
 
     //이벤트 슬라이드//
