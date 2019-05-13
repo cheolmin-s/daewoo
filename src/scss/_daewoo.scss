@@ -792,11 +792,11 @@
 
             &.on{
                 transform:translateY(0);
-                opacity:1;
+                opacity:1;              
             }
         }
         .slide2{
-
+            
             &.on{
                 transform:translateY(0);
                 transition-delay:.2s;
@@ -804,14 +804,15 @@
             }
         }
         .slide3{
-
+            
             &.on{
                 transform:translateY(0);
                 transition-delay:.4s;
-                opacity:1;
+                opacity:1; 
             }
         }
         .slide4{
+            
             &.on{
                 transform:translateY(0);
                 transition-delay:.6s;
