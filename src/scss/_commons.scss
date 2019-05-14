@@ -1,5 +1,3 @@
-@font-face {font-family:'MalgunGothic',sans-serif; src:url(../fonts/MalgunGothic.eot);}
-
 .inner-box{
     width:1260px;
     margin:0 auto;
@@ -806,90 +804,6 @@
     }
 }
 
-
-.bx-wrapper{
-    box-shadow:none;
-    border:0;
-    background:0;
-    position:relative;
-    margin-bottom:0;
-
-    .bx-controls-direction{
-        position:absolute;
-        right:0;
-        bottom:0;
-        width:112px;
-        height:62px;
-
-        & a{
-            position:static;
-            margin-top:0;
-            display:inline-block;
-        }
-
-        .bx-prev{
-            width:54px;
-            height:62px;
-            right:58px;
-            background:url("../images/main/ico_sldPlay.png")-58px 0 no-repeat;
-
-            &:hover,&:focus{
-                background-position:-58px -62px;
-            }
-
-            &.on{
-                background-position:-58px -62px;
-            }
-        }
-
-        .bx-next{
-            width:58px;
-            height:62px;
-            background:url("../images/main/ico_sldPlay.png")-112px 0 no-repeat;
-
-            &:hover,&:focus{
-                background-position:-112px -62px;
-            }
-
-            &.on{
-                background-position:-112px -62px;
-            }
-        }
-
-    }
-
-
-    .bx-pager.bx-default-pager{
-        position:static;
-        padding-top:30px;
-        height:8px;
-
-        & > div{
-            vertical-align:top;
-
-            &:first-child{
-
-                & a{
-                    margin-right:5px;
-                }
-            }
-        }
-
-        & a{
-            display:block;
-            margin:0;
-            width:8px;
-            height:8px;
-            background:url("../images/main/ico_sldDot.png")no-repeat;
-
-            &.active{
-                width:40px;
-                background:#383e4e url("../images/main/ico_sldDot.png")-10px 0 no-repeat;
-            }
-        }
-    }
-}
-
 .select-box-wrap{
     float:left;
     width:100%;
@@ -1012,8 +926,6 @@
                 display:block;
             }
         }
-
-        @import "datepicker";
 
     }
     .icon{
