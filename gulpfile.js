@@ -42,8 +42,8 @@ gulp.task('sass', function(){
           browsers: ['last 2 versions'],
           cascade: false
       }))
-      .pipe(sourcemaps.write())
       .pipe(concat('style.css'))
+      .pipe(sourcemaps.write('../maps'))
       .pipe(gulp.dest('dist/css'));
 });
 
@@ -52,7 +52,7 @@ gulp.task('concat', function() {
   return gulp.src(['src/js/daewoo.js','src/js/*.js'])
       .pipe(sourcemaps.init())
       .pipe(concat('commons.js'))
-      .pipe(sourcemaps.write())
+      .pipe(sourcemaps.write('/maps'))
       .pipe(gulp.dest('dist/'));
 });
 
