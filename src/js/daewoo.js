@@ -239,7 +239,7 @@ $(function(){
 
         var $active = $('.scroll-active');
 
-        var a = $window.scrollTop() + $window.height() - 80;
+        var a = $window.scrollTop() + $window.height() - 100;
 
         $active.each(function(){
 

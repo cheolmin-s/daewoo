@@ -799,7 +799,7 @@
             
             &.on{
                 transform:translateY(0);
-                transition-delay:.2s;
+                transition:all 1s .3s;
                 opacity:1;
             }
         }
@@ -807,7 +807,7 @@
             
             &.on{
                 transform:translateY(0);
-                transition-delay:.4s;
+                transition:all 1s .6s;
                 opacity:1; 
             }
         }
@@ -815,7 +815,7 @@
             
             &.on{
                 transform:translateY(0);
-                transition-delay:.6s;
+                transition:all 1s .9s;
                 opacity:1;
             }
         }
@@ -830,10 +830,6 @@
     &-inner{
         width:980px;
         margin:0 auto;
-        &.on{
-            transform:translateY(0);
-            opacity:1;
-        }
 
         &:after{
             display:block;
@@ -844,6 +840,11 @@
 
     .event-slide{
         position:relative;
+
+        &.on{
+            transform:translateY(0);
+            opacity:1;
+        }
 
         & > ul{
             height:320px;
@@ -963,8 +964,29 @@
                 }
             }
 
+            &:nth-child(1){
+                &.on{
+                    transform:translateY(0);
+                    transition:all .8s .3s;
+                    opacity:1;
+                }
+            }
+
+            &:nth-child(2){
+                &.on{
+                    transform:translateY(0);
+                    transition:all .8s .6s;
+                    opacity:1;
+                }
+            }
+
             &:last-child{
                 margin-right:0;
+                &.on{
+                    transform:translateY(0);
+                    transition:all .8s .9s;
+                    opacity:1;
+                }
             }
         }
 
