@@ -1,6 +1,3 @@
 # 미래에셋대우 홈페이지 퍼블리싱
 
-<ul>
-  <li></li>
-</ul>
-
+- HTML5, CSS3, JQUERY, JAVASCRIPT
