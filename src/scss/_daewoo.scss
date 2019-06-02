@@ -56,7 +56,9 @@
             border:0;
             padding:0;
             width:30px;
-            height:30px;
+            height:0;
+            padding-top:30px;
+            overflow:hidden;
             background:url('../images/main/thema_menu_close.png')50% no-repeat;
             vertical-align:middle;
             float:right;
