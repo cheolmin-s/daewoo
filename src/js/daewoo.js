@@ -25,6 +25,7 @@ $(function(){
         for(i = 1; i < 7 ; i++ ){
             $('.menu'+(i + 1)+'').removeClass('on');
         }
+
         $menuIdx.addClass('on');
         $gnbDepth2.removeClass('on');
         $this.next($gnbDepth2).addClass('on');

@@ -32,34 +32,121 @@ $(function(){
 
 $(function(){
 
-    var $tabMenu = $('.tab-menu li');
-    var $contents = $('.tab-contents section');
-    var $tabMenuLink = $('.tab-menu-link');
+    var $tabMenu = $('.tab-menu .button')
 
-    $tabMenu.eq(0).addClass('on');
-    $contents.eq(0).addClass('on');
+    $tabMenu.on('click',function(e){
+        e.preventDefault();
+        e.stopPropagation();
 
-    $tabMenu.on('click',function(){
+        var currTab = e.currentTarget;
 
-        var $this = $(this);
-        var index = $this.index('.tab-menu li');
+        activeTab(currTab);
+        activeTabPanel(currTab);
 
-        $contents.removeClass('on');
-        $tabMenu.removeClass('on');
-        $this.addClass('on');
-        $contents.eq(index).addClass('on');
     });
 
-    $tabMenuLink.focus(function(){
+    $tabMenu.on('keydown',function(e){
+        e.stopPropagation();
 
-        var $this = $(this).parents();
-        var index = $this.index('.tab-menu li');
+        var keyCode = e.keyCode || e.which;
 
-        $contents.removeClass('on');
-        $tabMenu.removeClass('on');
-        $this.addClass('on');
-        $contents.eq(index).addClass('on');
+        switch(keyCode){
+            case 37:
+                if(e.target.previousElementSibling){
+                    $(e.target)
+                        .attr({
+                            'tabindex':'-1'
+                        })
+                        .prev()
+                            .attr({
+                                'tabindex':'0'
+                            })
+                            .focus()
+                } else {
+                    $(e.target)
+                        .attr({
+                            'tabindex':'-1'
+                        })
+                        .siblings(':last')
+                            .attr({
+                                'tabindex':'0'
+                            })
+                            .focus()
+                }
+                        break;
+
+                case 39:
+                    if(e.target.nextiousElementSibling){
+                        $(e.target)
+                            .attr({
+                                'tabindex':'-1'
+                            })
+                            .next()
+                                .attr({
+                                    'tabindex':'0'
+                                })
+                                .focus()
+                    } else {
+                        $(e.target)
+                            .attr({
+                                'tabindex':'-1'
+                            })
+                            .siblings(':first')
+                                .attr({
+                                    'tabindex':'0'
+                                })
+                                .focus()
+                    }
+                        break;
+
+                    case 32:
+                    case 13:
+                        e.preventDefault();
+                        activeTab(e.target);
+                        activeTabPanel(e.target);
+
+                        break;          
+        }
     });
+
+    function activeTab(tab){    
+        $(tab).addClass('on')
+            .attr({
+                'tabindex': '0',
+                'aria-selected' : 'true',
+            })
+            .focus()
+            .siblings()
+                .removeClass('on')
+                .attr({
+                    'tabindex': '-1',
+                    'aria-selected' : 'false',
+                })
+                
+
+    }
+
+    function activeTabPanel(tab){
+        $('#'+ tab.getAttribute('aria-controls'))
+            .attr({
+                'tabindex':'0'
+            })
+            .prop({
+                'hidden':false
+            })
+            .addClass('on')
+            .siblings('.panel')
+                .attr({
+                    'tabindex':'-1'
+                })
+                .prop({
+                    'hidden':true
+                })
+                .removeClass('on')
+    }
+
+    $('.tab-menu .button:first-of-type').trigger('click');
+
 });
 
 
