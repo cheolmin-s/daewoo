@@ -99,7 +99,7 @@ $(function(){
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
     var $side7 = $('.side7');
-    var position = parseInt($(".side-menu").css("top"));
+    var position = parseInt($('.side-menu').css('top'));
     var $window = $(window);
     var $sideMenu = $('.side-menu');
 
@@ -138,7 +138,7 @@ $(function(){
 
     $window.scroll(function() {
         var scrollTop = $window.scrollTop();
-        $sideMenu.stop().animate({"top":scrollTop+position+"px"},1000);
+        $sideMenu.stop().animate({'top':scrollTop + position },1000);
     });
 
 });

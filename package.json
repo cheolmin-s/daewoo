@@ -22,6 +22,7 @@
     "node-sass": "^4.12.0"
   },
   "dependencies": {
-    "bxslider": "^4.2.14"
+    "bxslider": "^4.2.14",
+    "jquery.touchslider": "^1.6.1"
   }
 }

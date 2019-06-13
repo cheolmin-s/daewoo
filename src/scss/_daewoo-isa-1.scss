@@ -105,12 +105,15 @@
         }
     }
 
-    .advantages{
+    .panel{
         display:none;
 
         &.on{
             display:block;
         }
+    }
+
+    #tab-panel-1{
 
         & dl{
             margin-top:40px;
@@ -130,16 +133,11 @@
 
     }
 
-    .division{
-        display:none;
+    #tab-panel-2{
         margin-top:-1px;
         margin-bottom:35px;
 
-        &.on{
-            display:block;
-        }
-
-        &-table{
+        & table{
             border-top:1px solid #000;
             border-bottom:1px solid #bebebe;
             border-right:0;

@@ -38,10 +38,10 @@ $(function(){
         e.preventDefault();
         e.stopPropagation();
 
-        var currTab = e.currentTarget;
+        var currentTab = e.currentTarget;
 
-        activeTab(currTab);
-        activeTabPanel(currTab);
+        activeTab(currentTab);
+        activeTabPanel(currentTab);
 
     });
 
@@ -76,7 +76,7 @@ $(function(){
                         break;
 
                 case 39:
-                    if(e.target.nextiousElementSibling){
+                    if(e.target.nextElementSibling){
                         $(e.target)
                             .attr({
                                 'tabindex':'-1'
@@ -145,7 +145,7 @@ $(function(){
                 .removeClass('on')
     }
 
-    $('.tab-menu .button:first-of-type').trigger('click');
+    $('.tab-menu .button:first-of-type, .panel:nth-of-type(2)').addClass('on').attr({ 'tabindex':'0' })
 
 });
 

@@ -99,7 +99,7 @@ $(function(){
     var $sideDepth2Bg = $('.contents-bg');
     var $sideCloseBtn = $('.side-close-btn');
     var $side7 = $('.side7');
-    var position = parseInt($(".side-menu").css("top"));
+    var position = parseInt($('.side-menu').css('top'));
     var $window = $(window);
     var $sideMenu = $('.side-menu');
 
@@ -138,7 +138,7 @@ $(function(){
 
     $window.scroll(function() {
         var scrollTop = $window.scrollTop();
-        $sideMenu.stop().animate({"top":scrollTop+position+"px"},1000);
+        $sideMenu.stop().animate({'top':scrollTop + position },1000);
     });
 
 });
@@ -329,10 +329,10 @@ $(function(){
         e.preventDefault();
         e.stopPropagation();
 
-        var currTab = e.currentTarget;
+        var currentTab = e.currentTarget;
 
-        activeTab(currTab);
-        activeTabPanel(currTab);
+        activeTab(currentTab);
+        activeTabPanel(currentTab);
 
     });
 
@@ -367,7 +367,7 @@ $(function(){
                         break;
 
                 case 39:
-                    if(e.target.nextiousElementSibling){
+                    if(e.target.nextElementSibling){
                         $(e.target)
                             .attr({
                                 'tabindex':'-1'
@@ -436,7 +436,7 @@ $(function(){
                 .removeClass('on')
     }
 
-    $('.tab-menu .button:first-of-type').trigger('click');
+    $('.tab-menu .button:first-of-type, .panel:nth-of-type(2)').addClass('on').attr({ 'tabindex':'0' })
 
 });
 
