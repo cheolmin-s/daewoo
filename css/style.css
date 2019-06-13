@@ -990,33 +990,31 @@ a { text-decoration: none; color: #333; }
 
 .section-isa .tab-top img { display: block; }
 
-.section-isa .advantages { display: none; }
+.section-isa .panel { display: none; }
 
-.section-isa .advantages.on { display: block; }
+.section-isa .panel.on { display: block; }
 
-.section-isa .advantages dl { margin-top: 40px; }
+.section-isa #tab-panel-1 dl { margin-top: 40px; }
 
-.section-isa .advantages dt { margin-bottom: 10px; }
+.section-isa #tab-panel-1 dt { margin-bottom: 10px; }
 
-.section-isa .advantages dd { line-height: 23px; }
+.section-isa #tab-panel-1 dd { line-height: 23px; }
 
-.section-isa .advantages .tab-notice { margin-top: 40px; }
+.section-isa #tab-panel-1 .tab-notice { margin-top: 40px; }
 
-.section-isa .division { display: none; margin-top: -1px; margin-bottom: 35px; }
+.section-isa #tab-panel-2 { margin-top: -1px; margin-bottom: 35px; }
 
-.section-isa .division.on { display: block; }
+.section-isa #tab-panel-2 table { border-top: 1px solid #000; border-bottom: 1px solid #bebebe; border-right: 0; border-left: 0; }
 
-.section-isa .division-table { border-top: 1px solid #000; border-bottom: 1px solid #bebebe; border-right: 0; border-left: 0; }
+.section-isa #tab-panel-2 table th, .section-isa #tab-panel-2 table td { padding: 13px 0; text-align: center; font-size: 12px; line-height: 20px; vertical-align: middle; border-right: 1px solid #e5e5e5; color: #000; }
 
-.section-isa .division-table th, .section-isa .division-table td { padding: 13px 0; text-align: center; font-size: 12px; line-height: 20px; vertical-align: middle; border-right: 1px solid #e5e5e5; color: #000; }
+.section-isa #tab-panel-2 table th:last-child, .section-isa #tab-panel-2 table td:last-child { border-right: 0; }
 
-.section-isa .division-table th:last-child, .section-isa .division-table td:last-child { border-right: 0; }
+.section-isa #tab-panel-2 table th { background: #f4f4f4; }
 
-.section-isa .division-table th { background: #f4f4f4; }
+.section-isa #tab-panel-2 table td { color: #444; }
 
-.section-isa .division-table td { color: #444; }
-
-.section-isa .division-table tbody tr { border-top: 1px solid #e5e5e5; }
+.section-isa #tab-panel-2 table tbody tr { border-top: 1px solid #e5e5e5; }
 
 .sub-header .inner-box { width: 1000px; }
 
