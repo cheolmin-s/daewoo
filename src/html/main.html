@@ -6,10 +6,10 @@
     <meta name="format-detection" content="telephone=no">
     <title>미래에셋대우</title>
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../../src/js/lib/jquery-3.2.1.min.js"></script>
-    <script src="../../src/js/lib/jquery.bxslider.min.js"></script>
+    <script src="../../src/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="../../src/js/lib/jquery.touchSlider.js"></script>
     <script src="../../src/js/lib/jquery-ui.min.js"></script>
-    <script src="../commons.js"></script>
+    <script src="../js/common.js"></script>
 </head>
 <body>
 <!--= include _include/_header.html -->
@@ -138,18 +138,18 @@
                     <div class="main-banner-img-btn"><a href="#"><span class="hidden-text">바로가기</span></a></div>
                 </div>
 
-                <div class="main-slide">
+                <div class="main-slide scroll-active">
                     <ul>
-                        <li class="main-slide-list slide1 scroll-active">
+                        <li class="main-slide-list slide1">
                             <a href="#"><img src="../images/main/main_slide1.png" alt="로보픽. 핀테크,알고리즘 업체들의 종목 서비스를 체험해보세요"></a>
                         </li>
-                        <li class="main-slide-list slide2 scroll-active">
+                        <li class="main-slide-list slide2">
                             <a href="#"><img src="../images/main/main_slide2.png" alt="m.club. 누구나 무료로 이용할 수 있는 온라인 금융 플랫폼"></a>
                         </li>
-                        <li class="main-slide-list slide3 scroll-active">
+                        <li class="main-slide-list slide3">
                             <a href="#"><img src="../images/main/main_slide3.png" alt="Platform V. 주주총회를 위한 나만의 권리행사. 미래에셋대우 전자투표시스템"></a>
                         </li>
-                        <li class="main-slide-list slide4 scroll-active">
+                        <li class="main-slide-list slide4">
                             <a href="#"><img src="../images/main/main_slide4.png" alt="FN 지니아이. 쉽고 재미있는 금융 콘텐츠 채널"></a>
                         </li>
                         <li class="main-slide-list slide5">
@@ -371,6 +371,7 @@
                         </li>
                     </ul>
                 </div>
+                <button type="button" class="toggle-btn">일시정지</button>
                 <div class="event-banner">
                     <ul >
                         <li class="scroll-active">

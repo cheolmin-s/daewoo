@@ -1,0 +1,364 @@
+.main-banner{
+
+    .main-slide{
+        position:relative;
+        overflow:hidden;
+
+        & ul{
+            position:relative;
+            top:0;
+            left:0;
+            overflow:hidden;
+        }
+
+        &-list{
+            display:inline-block;
+            width:300px;
+            height:300px;
+            font-size:0;
+
+            &:nth-child(4){
+                margin-right:0;
+            }
+
+            & > a{
+                display:inline-block;
+                height:100%;
+            }
+        }
+
+        .slide1{
+
+            &.on{
+                transform:translateY(0);
+                opacity:1;              
+            }
+        }
+        .slide2{
+            
+            &.on{
+                transform:translateY(0);
+                transition:all 1s .3s;
+                opacity:1;
+            }
+        }
+        .slide3{
+            
+            &.on{
+                transform:translateY(0);
+                transition:all 1s .6s;
+                opacity:1; 
+            }
+        }
+        .slide4{
+            
+            &.on{
+                transform:translateY(0);
+                transition:all 1s .9s;
+                opacity:1;
+            }
+        }
+    }
+
+    .scroll-active{
+
+        &.on{
+            transform:translateY(0);
+            opacity:1;
+        }
+    }
+
+    & button{
+        background:0;
+        padding:0;
+        border:0;
+    }
+
+    .ts-controls{
+        position:relative;
+    }
+
+    .ts-paging{
+        position:absolute;
+        left:50%;
+        height:8px;
+        padding-top:30px;
+        transform:translateX(-50%);
+
+        & button{
+            overflow:hidden;
+            height:0;
+            max-height:8px;
+            padding-top:8px;
+            cursor:pointer;
+        }
+
+        &-btn{
+            width:8px;
+            height:8px;
+            background:url("../images/main/ico_sldDot.png") no-repeat;
+
+            &:first-child{
+                margin-right:5px;
+            }
+        }
+
+        &-active{
+            width:40px;
+            height:8px;
+            background:#383e4e url("../images/main/ico_sldDot.png") -10px 0 no-repeat;
+            border-radius:5px;
+        }
+    }
+
+    .ts-prev{
+        position:absolute;
+        top:-24px;
+        right:58px;
+        width:54px;
+        height:62px;
+        max-height:62px;
+        padding-top:62px;
+        overflow:hidden;
+        background:url("../images/main/ico_sldPlay.png")-58px 0 no-repeat;
+        cursor:pointer;
+
+        &:hover,&:focus{
+            background-position:-58px -62px;
+        }
+
+        &.on{
+            background-position:-58px -62px;
+        }
+    }
+
+    .ts-next{
+        position:absolute;
+        top:-24px;
+        right:0;
+        width:58px;
+        height:62px;
+        max-height:62px;
+        padding-top:62px;
+        overflow:hidden;
+        background:url("../images/main/ico_sldPlay.png")-112px 0 no-repeat;
+        cursor:pointer;
+
+        &:hover,&:focus{
+            background-position:-112px -62px;
+        }
+
+        &.on{
+            background-position:-112px -62px;
+        }
+    }
+}
+
+.event-wrap{
+
+    .event-slide{
+        position:relative;
+        overflow:hidden;
+
+        &.on{
+            transform:translateY(0);
+            opacity:1;
+        }
+
+        & > ul{
+            position:relative;
+            top:0;
+            left:0;
+            overflow:hidden;
+        }
+
+        &-list{
+            display:inline-block;
+            width:980px;
+            height:320px;
+            font-size:0;
+
+            & > a{
+                display:block;
+                height:100%;
+
+                &:after{
+                    display:block;
+                    content:"";
+                    clear:both;
+                }
+
+                & > img{
+                    display:block;
+                    width:50%;
+                    float:left;
+                }
+            }
+        }
+
+        &-info{
+            width:50%;
+            height:280px;
+            background:#fff;
+            float:left;
+            margin-top:40px;
+            box-sizing:border-box;
+            padding:44px 0 22px 60px;
+            font-family:"Noto Sans KR",sans-serif;
+            position:relative;
+
+
+            & dt{
+
+                & > span{
+                    font-size:33px;
+                    color:#000;
+                    display:block;
+                    font-weight:500;
+                    line-height:36px;
+                    letter-spacing:-1.2px;
+                }
+            }
+            .event-point{
+                color:#fe6500;
+            }
+
+            .event-date{
+                margin-top:16px;
+                font-size:14px;
+                color:#333;
+            }
+
+            & p{
+                margin-top:21px;
+                color:#707070;
+                font-size:14px;
+                line-height:22px;
+                font-weight:300;
+            }
+
+            .event-caution{
+                position:absolute;
+                bottom:22px;
+
+                &:after{
+                    display:block;
+                    content:"";
+                    clear:both;
+                }
+
+                & span{
+                    color:#aaa;
+                    font-size:11px;
+                    font-weight:300;
+                    margin:0 8px 0 0;
+                    line-height:16px;
+                    float:left;
+                }
+            }
+        }
+
+    }
+
+    & button{
+        background:0;
+        padding:0;
+        border:0;
+    }
+
+    .toggle-btn{
+        position:absolute;
+        top:266px;
+        left:calc(50% - 162px);
+        width:54px;
+        height:54px;
+        max-height:54px;
+        padding-top:54px;
+        overflow:hidden;
+        background:url("../images/main/ico_sldPlay.png") -4px -128px no-repeat;
+        cursor:pointer;
+
+        &.on{
+            background-position:-4px -188px;
+        }
+    }
+
+    .ts-controls{
+        position:relative;
+        top:-54px;
+        left:0;
+        width:50%;
+        height:54px;
+    }
+
+    .ts-paging{
+        position:absolute;
+        top:24px;
+        left:24px;
+        height:8px;
+
+        & button{
+            overflow:hidden;
+            height:0;
+            max-height:8px;
+            padding-top:8px;
+            cursor:pointer;
+        }
+
+        &-btn{
+            width:8px;
+            height:8px;
+            margin-right:5px;
+            background:url("../images/main/ico_sldDot.png") no-repeat;
+        }
+
+        &-active{
+            width:40px;
+            height:8px;
+            background:#383e4e url("../images/main/ico_sldDot.png") -10px 0 no-repeat;
+            border-radius:5px;
+        }
+    }
+
+    .ts-prev{
+        position:absolute;
+        bottom:0;
+        right:54px;
+        width:54px;
+        height:54px;
+        max-height:54px;
+        padding-top:54px;
+        overflow:hidden;
+        background:url("../images/main/ico_sldPlay.png") -58px -2px no-repeat;
+        cursor:pointer;
+
+        &:hover,&:focus{
+            background-position:-58px -64px;
+        }
+
+        &.on{
+            background-position:-58px -64px;
+        }
+    }
+
+    .ts-next{
+        position:absolute;
+        bottom:0;
+        right:0;
+        width:54px;
+        height:54px;
+        max-height:54px;
+        padding-top:54px;
+        overflow:hidden;
+        background:url("../images/main/ico_sldPlay.png") -112px -2px no-repeat;
+        cursor:pointer;
+
+        &:hover,&:focus{
+            background-position:-112px -64px;
+        }
+
+        &.on{
+            background-position:-112px -64px;
+        }
+    }
+}
